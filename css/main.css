@@ -1,4 +1,34 @@
-body,
-html {
-  background-color: red;
+/* navbar style */
+
+.navbar-default {
+  background-color: #24be55;
+  border-color: #43d471;
+}
+
+.navbar-default .navbar-brand {
+  color: #f0f0f0;
+}
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover {
+  color: #ddd;
+  background-color: transparent;
+}
+.navbar-default .row {
+  padding: 15px 15px 8px;
+}
+.navbar-brand {
+  float: left;
+  height: auto;
+  padding: 0px;
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 5px;
+}
+
+p {
+  padding: 0px;
+  font-size: 16px;
+  color: #f0f0f0;
+  text-align: right;
+  margin: 0;
 }

@@ -11,6 +11,24 @@
 
 <body>
 
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-xs-4">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">
+                            COVID19DZ
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-8">
+                    <p>بالشراكة مع الأطباء ومهندسي الكمبيوتر</p>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
     <script src="js/jquery-1.12.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/plugins.js"></script>
