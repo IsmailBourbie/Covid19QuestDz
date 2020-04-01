@@ -1,5 +1,8 @@
 /* navbar style */
-
+body * {
+  direction: rtl;
+  font-family: "Tajawal", sans-serif;
+}
 .navbar-default {
   background-color: #24be55;
   border-color: #43d471;
@@ -25,10 +28,28 @@
   margin-bottom: 5px;
 }
 
-p {
+.navbar-default .row p {
   padding: 0px;
   font-size: 16px;
   color: #f0f0f0;
   text-align: right;
   margin: 0;
+}
+
+/* Start with the main  */
+
+.main {
+  margin-top: 30px;
+}
+
+.main header.main-title {
+  margin-bottom: 60px;
+}
+.main header.main-title h1 {
+  color: #24be55;
+}
+
+.main header.main-title h1 .fa {
+  margin-left: 10px;
+  font-size: 50px;
 }
