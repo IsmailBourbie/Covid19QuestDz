@@ -75,16 +75,65 @@
                     <h4 class="modal-title">إستبيــان خاص بكورونا فيروس</h4>
                 </div>
                 <div class="modal-body">
-                    <div id="quizSlider" class="carousel slide" data-ride="carousel" data-wrap="false" data-interval="false">
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner" role="listbox">
-                            <div class="item active" style="background: red">
-
-                            </div>
-                            <div class="item" style="background: green">
+                    <form action="" method="post">
+                        <div id="quizSlider" class="carousel slide" data-ride="carousel" data-wrap="false" data-interval="false">
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                    <div class="quiz-title text-center">
+                                        <h3>معلومـــات شخصية</h3>
+                                    </div>
+                                    <div class="quiz-question">
+                                        <p class="lead">كم عمرك؟</p>
+                                    </div>
+                                    <div class="quiz-answer">
+                                        <div class="answer">
+                                            <input type="radio" name="qst1" id="qst1op1" value="18 - 30 سنة">
+                                            <label for="qst1op1">18 - 30 سنة</label>
+                                        </div>
+                                        <div class="answer">
+                                            <input type="radio" name="qst1" id="qst1op2" value="31 - 40 سنة">
+                                            <label for="qst1op2">31 - 40 سنة</label>
+                                        </div>
+                                        <div class="answer">
+                                            <input type="radio" name="qst1" id="qst1op3" value="41 - 50 سنة">
+                                            <label for="qst1op3">41 - 50 سنة</label>
+                                        </div>
+                                        <div class="answer">
+                                            <input type="radio" name="qst1" id="qst1op4" value="51 - 60 سنة">
+                                            <label for="qst1op4">51 - 60 سنة</label>
+                                        </div>
+                                        <div class="answer">
+                                            <input type="radio" name="qst1" id="qst1op5" value="61 - 70 سنة">
+                                            <label for="qst1op5">61 - 70 سنة</label>
+                                        </div>
+                                        <div class="answer">
+                                            <input type="radio" name="qst1" id="qst1op6" value="71 سنة وأكثر">
+                                            <label for="qst1op6">71 سنة وأكثر</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="quiz-title text-center">
+                                        <h3>معلومـــات شخصية</h3>
+                                    </div>
+                                    <div class="quiz-question">
+                                        <p class="lead">هل تعيش مع العــائلة الكبيرة أو المصغرة؟</p>
+                                    </div>
+                                    <div class="quiz-answer">
+                                        <div class="answer">
+                                            <input type="radio" name="qst2" id="qst2yes" value="نعم">
+                                            <label for="qst1yes">نعم</label>
+                                        </div>
+                                        <div class="answer">
+                                            <input type="radio" name="qst2" id="qst2no" value="لا">
+                                            <label for="qst1no">لا</label>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </form>
                 </div>
                 <div class="modal-footer">
 

@@ -108,6 +108,36 @@ body * {
   font-size: 18px;
   font-weight: bold;
 }
-.item {
-  height: 90px;
+
+/* item design start */
+
+#quizModal #quizSlider .item .quiz-title h3 {
+  margin: 0;
+  margin-bottom: 10px;
+  color: #24be55;
+}
+
+#quizModal #quizSlider .item .quiz-question p {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+#quizModal #quizSlider .item .quiz-answer label {
+  font-size: 18px;
+  position: absolute;
+  top: 5px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+#quizModal #quizSlider .item .quiz-answer .answer {
+  margin-top: 5px;
+  position: relative;
+}
+
+#quizModal #quizSlider .item .quiz-answer input[type="radio"] {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
 }
