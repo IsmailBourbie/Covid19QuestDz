@@ -62,10 +62,55 @@
             </div>
 
             <div class="main-footer">
-                <button class="btn btn-success">أبدأ الأسئلة</button>
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#quizModal">أبدأ الأسئلة</button>
             </div>
         </div>
     </div>
+    <!-- Quiz Modal Slider Start -->
+    <div class="modal fade" id="quizModal" tabindex="-1" role="dialog" aria-labelledby="quizModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">إستبيــان خاص بكورونا فيروس</h4>
+                </div>
+                <div class="modal-body">
+                    <div id="quizSlider" class="carousel slide" data-ride="carousel" data-wrap="false" data-interval="false">
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active" style="background: red">
+
+                            </div>
+                            <div class="item" style="background: green">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+
+                    <!-- Controls -->
+                    <div class="row">
+                        <div class="col-xs-4 text-left">
+                            <a class="left btn carousel-control" id="prev" href="#quizSlider" role="button" data-slide="prev">
+                                الســابق
+                            </a>
+                        </div>
+                        <div class="col-xs-4 text-center">
+                            <div class="quizNumeration">
+                                <span id="quizNumber">1</span> - 26
+                            </div>
+                        </div>
+                        <div class="col-xs-4">
+                            <a class="right btn carousel-control" id="next" href="#quizSlider" role="button" data-slide="next">
+                                التـــالي
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
 
     <script src="js/jquery-1.12.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

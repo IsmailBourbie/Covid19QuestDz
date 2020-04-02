@@ -57,6 +57,10 @@ body * {
 .main .section {
   margin-bottom: 50px;
 }
+
+.main .section p {
+  color: #3e3f41;
+}
 .main .main-footer {
   text-align: center;
   margin-bottom: 100px;
@@ -66,4 +70,44 @@ body * {
   padding: 15px;
   font-size: 30px;
   width: 300px;
+  background-color: #24be55;
+}
+
+/* Quiz Modal start */
+
+#quizModal .close {
+  float: left;
+}
+#quizModal .modal-footer .carousel-control {
+  position: relative;
+  opacity: 1;
+}
+#quizModal .modal-footer a {
+  width: auto;
+  font-size: 15px;
+  background-image: none;
+  width: 75px;
+}
+#quizModal .modal-footer a#next {
+  background-color: #24be55;
+}
+
+#quizModal .modal-footer a#prev {
+  background-color: #e53838;
+}
+#quizModal .modal-footer a:hover,
+#quizModal .modal-footer a:focus {
+  color: #f0f0f0;
+  outline: none;
+}
+#quizModal .modal-footer a:active {
+  opacity: 0.8;
+}
+#quizModal .modal-footer .quizNumeration {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.item {
+  height: 90px;
 }
