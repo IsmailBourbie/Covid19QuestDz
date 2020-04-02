@@ -147,6 +147,12 @@ body * {
   padding-right: 12px;
   border-right: 3px solid #24be55;
 }
+
+#quizModal #quizSlider .item .subInfoDisplay {
+  display: none;
+  width: 90%;
+  margin: auto;
+}
 #quizModal #quizSlider .item .subshow .quiz-question p {
   font-size: 18px;
 }
@@ -161,5 +167,5 @@ body * {
 }
 
 .item {
-  min-height: 320px;
+  /* min-height: 320px; */
 }

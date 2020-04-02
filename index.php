@@ -206,7 +206,7 @@
                                     <div class="quiz-answer subqst">
                                         <div class="answer">
                                             <input class="yes" type="radio" name="qst6" id="qst6yes" value="نعم">
-                                            <label for="qst1yes">نعم</label>
+                                            <label for="qst6yes">نعم</label>
                                         </div>
                                         <!-- Sub question -->
                                         <div class="subshow hide">
@@ -230,14 +230,162 @@
                                         </div>
                                         <div class="answer">
                                             <input class="no" type="radio" name="qst6" id="qst6no" value="لا">
-                                            <label for="qst1no">لا</label>
+                                            <label for="qst6no">لا</label>
                                         </div>
                                     </div>
                                 </div>
                                 <!-- QST7 -->
+                                <div class="item">
+                                    <div class="quiz-title text-center">
+                                        <h3>كيف حـالك؟</h3>
+                                        <h3>هل لديك أعراض؟</h3>
+                                    </div>
+                                    <div class="quiz-question">
+                                        <p class="lead">هل لديك الحمى؟</p>
+                                    </div>
+                                    <div class="quiz-answer subqst">
+                                        <div class="answer">
+                                            <input class="yes" type="radio" name="qst7" id="qst7yes" value="نعم">
+                                            <label for="qst7yes">نعم</label>
+                                        </div>
+                                        <!-- Sub question -->
+                                        <div class="subshow hide">
+                                            <div class="quiz-question">
+                                                <p class="lead">إذا أجبت بنعم، منذ متى؟</p>
+                                            </div>
+                                            <div class="quiz-answer">
+                                                <div class="answer">
+                                                    <input type="radio" name="qst7yes" id="qst7yesopt1" value="أقل من 48 سـاعة">
+                                                    <label for="qst7yesopt1">أقل من 48 سـاعة</label>
+                                                </div>
+                                                <div class="answer">
+                                                    <input type="radio" name="qst7yes" id="qst7yesopt2" value="3 إلى 7 أيــام">
+                                                    <label for="qst7yesopt2">3 إلى 7 أيــام</label>
+                                                </div>
+                                                <div class="answer">
+                                                    <input type="radio" name="qst7yes" id="qst7yesopt3" value="أكثر من أسبوع">
+                                                    <label for="qst7yesopt3">أكثر من أسبوع</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="answer">
+                                            <input class="no" type="radio" name="qst7" id="qst7no" value="لا">
+                                            <label for="qst7no">لا</label>
+                                        </div>
+                                    </div>
+                                </div>
                                 <!-- QST8 -->
+                                <div class="item">
+                                    <div class="quiz-title text-center">
+                                        <h3>كيف حـالك؟</h3>
+                                        <h3>هل لديك أعراض؟</h3>
+                                    </div>
+                                    <div class="quiz-question">
+                                        <p class="lead">كم درجة حرارتك حــاليا؟</p>
+                                    </div>
+                                    <div class="quiz-answer subInfo">
+                                        <div class="answer">
+                                            <input type="radio" name="qst8" id="qst8op1" value="لا أدري، لا يمكنني قيـاس درجة الحرارة">
+                                            <label for="qst8op1">لا أدري، لا يمكنني قيـاس درجة الحرارة</label>
+                                        </div>
+                                        <div class="answer">
+                                            <input type="radio" name="qst8" id="qst8op2" value="أقل من 35°م">
+                                            <label for="qst8op2">أقل من 35°م</label>
+                                        </div>
+                                        <div class="answer">
+                                            <input type="radio" name="qst8" id="qst8op3" value="بين 35°م و 37°م">
+                                            <label for="qst8op3">بين 35°م و 37°م</label>
+                                        </div>
+                                        <div class="answer">
+                                            <input type="radio" name="qst8" id="qst8op4" value="بين 38°م و 39°م">
+                                            <label for="qst8op4">بين 38°م و 39°م</label>
+                                        </div>
+                                        <div class="answer">
+                                            <input class="hasSubInfo" type="radio" name="qst8" id="qst8op5" value="أكثر من 39°م">
+                                            <label for="qst8op5">أكثر من 39°م</label>
+                                            <div class="subInfoDisplay">
+                                                <div class="alert alert-info" role="alert">
+                                                    لقد اشرت أن درجة الحرارة تفوق 39°م! في إنتظــار استشــارة طبية مستعجلة إشرب كمية معتبرة من المــاء خــاصة إذا كنت صغير السن
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <!-- QST9 -->
+                                <div class="item">
+                                    <div class="quiz-title text-center">
+                                        <h3>كيف حـالك؟</h3>
+                                        <h3>هل لديك أعراض؟</h3>
+                                    </div>
+                                    <div class="quiz-question">
+                                        <p class="lead">هل لديك سيلان في الأنف؟</p>
+                                    </div>
+                                    <div class="quiz-answer subqst">
+                                        <div class="answer">
+                                            <input class="yes" type="radio" name="qst9" id="qst9yes" value="نعم">
+                                            <label for="qst9yes">نعم</label>
+                                        </div>
+                                        <!-- Sub question -->
+                                        <div class="subshow hide">
+                                            <div class="quiz-question">
+                                            </div>
+                                            <div class="quiz-answer">
+                                                <div class="answer">
+                                                    <input type="radio" name="qst9yes" id="qst9yesopt1" value="سيلان أخضر وخشن نوعـا مـا">
+                                                    <label for="qst9yesopt1">سيلان أخضر وخشن نوعـا مـا</label>
+                                                </div>
+                                                <div class="answer">
+                                                    <input type="radio" name="qst9yes" id="qst9yesopt2" value="سيلان شفـــاف يشبه المــاء">
+                                                    <label for="qst9yesopt2">سيلان شفـــاف يشبه المــاء</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="answer">
+                                            <input class="no" type="radio" name="qst9" id="qst9no" value="لا">
+                                            <label for="qst9no">لا</label>
+                                        </div>
+                                    </div>
+                                </div>
                                 <!-- QST10 -->
+                                <div class="item">
+                                    <div class="quiz-title text-center">
+                                        <h3>كيف حـالك؟</h3>
+                                        <h3>هل لديك أعراض؟</h3>
+                                    </div>
+                                    <div class="quiz-question">
+                                        <p class="lead">هل تشعر بآلام حــاليا؟</p>
+                                    </div>
+                                    <div class="quiz-answer subqst">
+                                        <div class="answer">
+                                            <input class="yes" type="radio" name="qst10" id="qst10yes" value="نعم">
+                                            <label for="qst10yes">نعم</label>
+                                        </div>
+                                        <!-- Sub question -->
+                                        <div class="subshow hide">
+                                            <div class="quiz-question">
+                                                <p class="lead">في أي موضع من جسمك؟</p>
+                                            </div>
+                                            <div class="quiz-answer">
+                                                <div class="answer">
+                                                    <input type="radio" name="qst10yes" id="qst10yesopt1" value="الصدر">
+                                                    <label for="qst10yesopt1">الصدر</label>
+                                                </div>
+                                                <div class="answer">
+                                                    <input type="radio" name="qst10yes" id="qst10yesopt2" value="الرأس">
+                                                    <label for="qst10yesopt2">الرأس</label>
+                                                </div>
+                                                <div class="answer">
+                                                    <input type="radio" name="qst10yes" id="qst10yesopt3" value="عضلات الجسم">
+                                                    <label for="qst10yesopt3">عضلات الجسم</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="answer">
+                                            <input class="no" type="radio" name="qst10" id="qst10no" value="لا">
+                                            <label for="qst10no">لا</label>
+                                        </div>
+                                    </div>
+                                </div>
                                 <!-- QST11 -->
                                 <!-- QST12 -->
                                 <!-- QST13 -->
