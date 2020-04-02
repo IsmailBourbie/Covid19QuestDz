@@ -13,4 +13,19 @@ $(document).ready(function() {
       quizNumber.text(quizNumberInt - 1);
     }
   });
+
+  // Show sub questions
+  $(".subqst input").click(function() {
+    if ($(this).hasClass("yes")) {
+      $(this)
+        .parent()
+        .siblings(".subshow")
+        .removeClass("hide");
+    } else {
+      $(this)
+        .parent()
+        .siblings(".subshow")
+        .addClass("hide");
+    }
+  });
 });

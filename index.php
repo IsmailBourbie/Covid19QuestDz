@@ -79,6 +79,7 @@
                         <div id="quizSlider" class="carousel slide" data-ride="carousel" data-wrap="false" data-interval="false">
                             <!-- Wrapper for slides -->
                             <div class="carousel-inner" role="listbox">
+                                <!-- QST1 -->
                                 <div class="item active">
                                     <div class="quiz-title text-center">
                                         <h3>معلومـــات شخصية</h3>
@@ -113,6 +114,7 @@
                                         </div>
                                     </div>
                                 </div>
+                                <!-- QST2 -->
                                 <div class="item">
                                     <div class="quiz-title text-center">
                                         <h3>معلومـــات شخصية</h3>
@@ -123,14 +125,131 @@
                                     <div class="quiz-answer">
                                         <div class="answer">
                                             <input type="radio" name="qst2" id="qst2yes" value="نعم">
-                                            <label for="qst1yes">نعم</label>
+                                            <label for="qst2yes">نعم</label>
                                         </div>
                                         <div class="answer">
                                             <input type="radio" name="qst2" id="qst2no" value="لا">
+                                            <label for="qst2no">لا</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- QST3 -->
+                                <div class="item">
+                                    <div class="quiz-title text-center">
+                                        <h3>معلومـــات شخصية</h3>
+                                    </div>
+                                    <div class="quiz-question">
+                                        <p class="lead">هل غــادرت أرض الوطن مؤخرا؟</p>
+                                    </div>
+                                    <div class="quiz-answer">
+                                        <div class="answer">
+                                            <input type="radio" name="qst3" id="qst3yes" value="نعم">
+                                            <label for="qst3yes">نعم</label>
+                                        </div>
+                                        <div class="answer">
+                                            <input type="radio" name="qst3" id="qst3no" value="لا">
+                                            <label for="qst3no">لا</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- QST4 -->
+                                <div class="item">
+                                    <div class="quiz-title text-center">
+                                        <h3>معلومـــات شخصية</h3>
+                                    </div>
+                                    <div class="quiz-question">
+                                        <p class="lead">هل تدخن حــاليا؟</p>
+                                    </div>
+                                    <div class="quiz-answer">
+                                        <div class="answer">
+                                            <input type="radio" name="qst4" id="qst4yes" value="نعم">
+                                            <label for="qst1yes">نعم</label>
+                                        </div>
+                                        <div class="answer">
+                                            <input type="radio" name="qst4" id="qst4no" value="لا">
                                             <label for="qst1no">لا</label>
                                         </div>
                                     </div>
                                 </div>
+                                <!-- QST5 -->
+                                <div class="item">
+                                    <div class="quiz-title text-center">
+                                        <h3>معلومـــات شخصية</h3>
+                                    </div>
+                                    <div class="quiz-question">
+                                        <p class="lead">هل قـابلت مؤخرا شخصـا أثبتت التحــاليل اصابته بمرض الكرونا؟</p>
+                                    </div>
+                                    <div class="quiz-answer">
+                                        <div class="answer">
+                                            <input type="radio" name="qst5" id="qst5yes" value="نعم">
+                                            <label for="qst1yes">نعم</label>
+                                        </div>
+                                        <div class="answer">
+                                            <input type="radio" name="qst5" id="qst5no" value="لا">
+                                            <label for="qst1no">لا</label>
+                                        </div>
+                                        <div class="answer">
+                                            <input type="radio" name="qst5" id="qst5idk" value="لا أدري">
+                                            <label for="qst5idk">لا أدري</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- QST6 -->
+                                <div class="item">
+                                    <div class="quiz-title text-center">
+                                        <h3>كيف حـالك؟</h3>
+                                        <h3>هل لديك أعراض؟</h3>
+                                    </div>
+                                    <div class="quiz-question">
+                                        <p class="lead">هل تسعل حــاليا؟</p>
+                                    </div>
+                                    <div class="quiz-answer subqst">
+                                        <div class="answer">
+                                            <input class="yes" type="radio" name="qst6" id="qst6yes" value="نعم">
+                                            <label for="qst1yes">نعم</label>
+                                        </div>
+                                        <!-- Sub question -->
+                                        <div class="subshow hide">
+                                            <div class="quiz-question">
+                                                <p class="lead">إذا أجبت بنعم، منذ متى؟</p>
+                                            </div>
+                                            <div class="quiz-answer">
+                                                <div class="answer">
+                                                    <input type="radio" name="qst6yes" id="qst6yesopt1" value="أقل من 48 سـاعة">
+                                                    <label for="qst6yesopt1">أقل من 48 سـاعة</label>
+                                                </div>
+                                                <div class="answer">
+                                                    <input type="radio" name="qst6yes" id="qst6yesopt2" value="3 إلى 7 أيــام">
+                                                    <label for="qst6yesopt2">3 إلى 7 أيــام</label>
+                                                </div>
+                                                <div class="answer">
+                                                    <input type="radio" name="qst6yes" id="qst6yesopt3" value="أكثر من أسبوع">
+                                                    <label for="qst6yesopt3">أكثر من أسبوع</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="answer">
+                                            <input class="no" type="radio" name="qst6" id="qst6no" value="لا">
+                                            <label for="qst1no">لا</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- QST7 -->
+                                <!-- QST8 -->
+                                <!-- QST9 -->
+                                <!-- QST10 -->
+                                <!-- QST11 -->
+                                <!-- QST12 -->
+                                <!-- QST13 -->
+                                <!-- QST14 -->
+                                <!-- QST16 -->
+                                <!-- QST17 -->
+                                <!-- QST18 -->
+                                <!-- QST19 -->
+                                <!-- QST20 -->
+                                <!-- QST21 -->
+                                <!-- QST22 -->
+                                <!-- QST23 -->
                             </div>
                         </div>
                     </form>

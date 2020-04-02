@@ -141,3 +141,25 @@ body * {
   height: 25px;
   cursor: pointer;
 }
+
+#quizModal #quizSlider .item .subshow {
+  margin-right: 40px;
+  padding-right: 12px;
+  border-right: 3px solid #24be55;
+}
+#quizModal #quizSlider .item .subshow .quiz-question p {
+  font-size: 18px;
+}
+
+#quizModal #quizSlider .item .subshow .quiz-answer label {
+  font-size: 15px;
+}
+
+#quizModal #quizSlider .item .subshow .quiz-answer input[type="radio"] {
+  width: 20px;
+  height: 20px;
+}
+
+.item {
+  min-height: 320px;
+}
