@@ -123,12 +123,32 @@ body * {
   font-size: 25px;
 }
 
+#quizModal #quizSlider .item .quiz-question p.tips {
+  font-size: 18px;
+  margin: 0;
+}
+
+#quizModal #quizSlider .item .sub-quiz-question p {
+  margin-top: 10px;
+}
+
 #quizModal #quizSlider .item .quiz-answer label {
   font-size: 18px;
   position: absolute;
   top: 5px;
   padding-right: 10px;
   cursor: pointer;
+}
+
+#quizModal #quizSlider .item .quiz-answer label#forInputText {
+  position: relative;
+}
+
+#quizModal #quizSlider .item .quiz-answer input[type="text"] {
+  background: transparent;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  padding: 5px;
 }
 
 #quizModal #quizSlider .item .quiz-answer .answer {
@@ -145,8 +165,10 @@ body * {
 
 #quizModal #quizSlider .item .subshow {
   margin-right: 4%;
-  padding-right: 12px;
   border-right: 3px solid #24be55;
+  background: rgba(36, 190, 85, 0.13);
+  padding: 8px 12px;
+  overflow-x: auto;
 }
 
 #quizModal #quizSlider .item .subInfoDisplay {
@@ -164,6 +186,8 @@ body * {
 
 #quizModal #quizSlider .item .subshow .quiz-answer label {
   font-size: 15px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 #quizModal #quizSlider .item .subshow .quiz-answer input[type="radio"],

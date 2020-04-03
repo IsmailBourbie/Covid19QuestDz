@@ -4,7 +4,7 @@ $(document).ready(function() {
       direction = e.direction,
       quizNumberInt = parseInt(quizNumber.text());
     if (direction == "left") {
-      if (quizNumberInt < 10) {
+      if (quizNumberInt < 26) {
         quizNumber.text(quizNumberInt + 1);
       }
     } else if (direction == "right") {

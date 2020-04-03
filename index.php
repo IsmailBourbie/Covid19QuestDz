@@ -75,12 +75,12 @@
                     <h4 class="modal-title">إستبيــان خاص بكورونا فيروس</h4>
                 </div>
                 <div class="modal-body">
-                    <form action="" method="post">
+                    <form action="test.php" method="post">
                         <div id="quizSlider" class="carousel slide" data-ride="carousel" data-wrap="false" data-interval="false">
                             <!-- Wrapper for slides -->
                             <div class="carousel-inner" role="listbox">
                                 <!-- QST1 -->
-                                <div class="item">
+                                <div class="item active">
                                     <div class="quiz-title text-center">
                                         <h3>معلومـــات شخصية</h3>
                                     </div>
@@ -165,7 +165,7 @@
                                             <input class="hasSubInfo" type="radio" name="qst4" id="qst4yes" value="نعم">
                                             <label for="qst1yes">نعم</label>
                                             <div class="subInfoDisplay">
-                                                <div class="alert alert-info" role="alert">
+                                                <div class="alert alert-danger" role="alert">
                                                     لقد اشرت أنك مدخن! استهلاك التبغ يزيد من خطورة الإصـــابة بالفيروس (دراسة صينية 2020)
                                                 </div>
                                             </div>
@@ -643,7 +643,7 @@
                                     </div>
                                 </div>
                                 <!-- QST17 -->
-                                <div class="item active">
+                                <div class="item">
                                     <div class="quiz-title text-center">
                                         <h3>هل لديك أمراض مزمنة؟</h3>
                                     </div>
@@ -728,14 +728,258 @@
                                     </div>
                                 </div>
                                 <!-- QST18 -->
+                                <div class="item">
+                                    <div class="quiz-title text-center">
+                                        <h3>هل لديك أمراض مزمنة؟</h3>
+                                    </div>
+                                    <div class="quiz-question">
+                                        <p class="lead">هل تلقيت تطعيم ضد الانفلونزا الموسمية لهذه السنة؟</p>
+                                    </div>
+                                    <div class="quiz-answer">
+                                        <div class="answer">
+                                            <input type="radio" name="qst18" id="qst18yes" value="نعم">
+                                            <label for="qst18yes">نعم</label>
+                                        </div>
+                                        <div class="answer">
+                                            <input type="radio" name="qst18" id="qst18no" value="لا">
+                                            <label for="qst18no">لا</label>
+                                        </div>
+                                    </div>
+                                </div>
                                 <!-- QST19 -->
+                                <div class="item">
+                                    <div class="quiz-title text-center">
+                                        <h3>ماهي الأدوية التي تتناولها حاليا؟</h3>
+                                    </div>
+                                    <div class="quiz-question">
+                                        <p class="lead">هل تناولت مضادات حيوية عند ظهور الاعراض السابقة؟</p>
+                                    </div>
+                                    <div class="quiz-answer subqst">
+                                        <div class="answer">
+                                            <input class="yes" type="radio" name="qst19" id="qst19yes" value="نعم">
+                                            <label for="qst19yes">نعم</label>
+                                        </div>
+                                        <!-- Sub question -->
+                                        <div class="subshow hide">
+                                            <div class="quiz-question">
+                                            </div>
+                                            <div class="quiz-answer subInfo">
+                                                <div class="answer">
+                                                    <label id="forInputText" for="qst19yessubinput">إذا كانت الإجابة بنعم ، فما اسمها؟</label>
+                                                    <input type="text" name="qst19yes" id="qst19yessubinput">
+                                                </div>
+                                                <div class="quiz-question sub-quiz-question">
+                                                    <p class="lead">منذ متى؟</p>
+                                                </div>
+                                                <div class="answer">
+                                                    <input type="radio" name="qst19yes" id="qst19yesopt1" value="أقل من 3 أيــام">
+                                                    <label for="qst19yesopt1">أقل من 3 أيــام</label>
+                                                </div>
+                                                <div class="answer">
+                                                    <input class="hasSubInfo" type="radio" name="qst19yes" id="qst19yesopt2" value="أكثر من 3 أيــام">
+                                                    <label for="qst19yesopt2">أكثر من 3 أيــام</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="answer">
+                                            <input class="no" type="radio" name="qst19" id="qst19no" value="لا">
+                                            <label for="qst19no">لا</label>
+                                        </div>
+                                    </div>
+                                </div>
                                 <!-- QST20 -->
+                                <div class="item">
+                                    <div class="quiz-title text-center">
+                                        <h3>ماهي الأدوية التي تتناولها حاليا؟</h3>
+                                    </div>
+                                    <div class="quiz-question">
+                                        <p class="lead">هل تناولت مؤخرا مضادات الالتهاب (إيبوبروفين مثلا..)؟</p>
+                                    </div>
+                                    <div class="quiz-answer subInfo">
+                                        <div class="answer">
+                                            <input class="hasSubInfo" type="radio" name="qst20" id="qst20yes" value="نعم">
+                                            <label for="qst1yes">نعم</label>
+                                            <div class="subInfoDisplay">
+                                                <div class="alert alert-info" role="alert">
+                                                    إن استعمال مضادات الالتهاب (إيبوبروفين مثلا) يضاعف من خطورة الإصابة بفيروس كوفيد 19.
+                                                    للتخفيف من بعض الآلام أو الأوجاع هذه الأدوية ممنوعة لكن يمكنك استعمال دواء البراسيتامول.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="answer">
+                                            <input type="radio" name="qst20" id="qst20no" value="لا">
+                                            <label for="qst1no">لا</label>
+                                        </div>
+                                    </div>
+                                </div>
                                 <!-- QST21 -->
+                                <div class="item">
+                                    <div class="quiz-title text-center">
+                                        <h3>ماهي الأدوية التي تتناولها حاليا؟</h3>
+                                    </div>
+                                    <div class="quiz-question">
+                                        <p class="lead">هل تناولت دواء الكورتيزون؟</p>
+                                    </div>
+                                    <div class="quiz-answer subInfo">
+                                        <div class="answer">
+                                            <input class="hasSubInfo" type="radio" name="qst21" id="qst21yes" value="نعم">
+                                            <label for="qst1yes">نعم</label>
+                                            <div class="subInfoDisplay">
+                                                <div class="alert alert-info" role="alert">
+                                                    إن استعمال دواء الكورتيزون للضرورة يحتاج إلى مراقبة طبية مستمرة.
+                                                    إن أدوية الكورتيكويد أو تلك التي تنقص المناعة والمستعملة لعلاج امراض مزمنة، لا يمكن إيقافها في انتظار استشارة الطبيب الخاص.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="answer">
+                                            <input type="radio" name="qst21" id="qst21no" value="لا">
+                                            <label for="qst1no">لا</label>
+                                        </div>
+                                    </div>
+                                </div>
                                 <!-- QST22 -->
+                                <div class="item">
+                                    <div class="quiz-title text-center">
+                                        <h3>ماهي الأدوية التي تتناولها حاليا؟</h3>
+                                    </div>
+                                    <div class="quiz-question">
+                                        <p class="lead">هل تناولت دواء البراسيتامول مؤخرا؟</p>
+                                    </div>
+                                    <div class="quiz-answer subInfo">
+                                        <div class="answer">
+                                            <input class="hasSubInfo" type="radio" name="qst22" id="qst22yes" value="نعم">
+                                            <label for="qst1yes">نعم</label>
+                                            <div class="subInfoDisplay">
+                                                <div class="alert alert-info" role="alert">
+                                                    دواء البراسيتامول يساعد على خفض درجة الحرارة و قد يخفي بعض الأعراض!
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="answer">
+                                            <input type="radio" name="qst22" id="qst22no" value="لا">
+                                            <label for="qst1no">لا</label>
+                                        </div>
+                                    </div>
+                                </div>
                                 <!-- QST23 -->
+                                <div class="item">
+                                    <div class="quiz-title text-center">
+                                        <h3>ماهي الأدوية التي تتناولها حاليا؟</h3>
+                                    </div>
+                                    <div class="quiz-question">
+                                        <p class="lead">هل تناولت دواء الأسبيرين مؤخرا؟</p>
+                                    </div>
+                                    <div class="quiz-answer">
+                                        <div class="answer">
+                                            <input type="radio" name="qst23" id="qst23yes" value="نعم">
+                                            <label for="qst1yes">نعم</label>
+                                        </div>
+                                        <div class="answer">
+                                            <input type="radio" name="qst23" id="qst23no" value="لا">
+                                            <label for="qst1no">لا</label>
+                                        </div>
+                                    </div>
+                                </div>
                                 <!-- QST24 -->
+                                <div class="item">
+                                    <div class="quiz-title text-center">
+                                        <h3>قياساتك؟</h3>
+                                    </div>
+                                    <div class="quiz-question">
+                                        <p class="lead">مــا معدل تنفسك؟</p>
+                                        <p class="tips">يمكنك حساب ذلك بتصفح موقع <a href="http://www.automesure.com/">automesure.com</a></p>
+                                    </div>
+                                    <div class="quiz-answer subInfo">
+                                        <div class="answer">
+                                            <input type="radio" name="qst24" id="qst24op1" value="أقل من 20">
+                                            <label for="qst24op1">أقل من 20</label>
+                                        </div>
+                                        <div class="answer">
+                                            <input type="radio" name="qst24" id="qst24op2" value="بين 20 و 22">
+                                            <label for="qst24op2">بين 20 و 22</label>
+                                        </div>
+                                        <div class="answer">
+                                            <input class="hasSubInfo" type="radio" name="qst24" id="qst24op3" value="أكثر من 22">
+                                            <label for="qst24op3">أكثر من 22</label>
+                                            <div class="subInfoDisplay">
+                                                <div class="alert alert-info" role="alert">
+                                                    لقد أشرت أن معدل التنفس يفوق 22، يجب استشارة الطبيب عاجلا!.
+                                                </div>
+                                                لدقة أكبر يمكنك كتابة معدل التنفس هنا : (عدد الأنفاس في الدقيقة)<br>
+                                                <input type="text" name="qst24op3sub">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <!-- QST25 -->
+                                <div class="item">
+                                    <div class="quiz-title text-center">
+                                        <h3>قياساتك؟</h3>
+                                    </div>
+                                    <div class="quiz-question">
+                                        <p class="lead">نسبة الأكسجين في الدم (إذا كان لديك جهاز لقياس ذلك) يستعمله عادة من يعانون من فشل تنفسي يلزم الاكسجين في المنزل،
+                                            <br>
+                                            عليك بوضع آخر نتيجة لديك:</p>
+                                    </div>
+                                    <div class="quiz-answer subInfo">
+                                        <div class="answer">
+                                            <input type="radio" name="qst25" id="qst25op1" value="بين 100 و 95 %">
+                                            <label for="qst25op1">بين 100 و 95 %</label>
+                                        </div>
+                                        <div class="answer">
+                                            <input type="radio" name="qst25" id="qst25op2" value="بين 94 و 90 %">
+                                            <label for="qst25op2">بين 94 و 90 %</label>
+                                        </div>
+                                        <div class="answer">
+                                            <input class="hasSubInfo" type="radio" name="qst25" id="qst25op3" value="أقل من 90 %">
+                                            <label for="qst25op3">أقل من 90 %</label>
+                                            <div class="subInfoDisplay">
+                                                <div class="alert alert-info" role="alert">
+                                                    لقد أشرت إلى أن نسبة الاكسجين أقل من 90 % و هذه نسبة ضعيفة نوعا ما، عليك باستشارة الطبيب عاجلا!
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <!-- QST26 -->
+                                <div class="item">
+                                    <div class="quiz-title text-center">
+                                        <h3>قياساتك؟</h3>
+                                    </div>
+                                    <div class="quiz-question">
+                                        <p class="lead">ضغط الدم:<br>
+                                            إذا كان لديك جهاز قياس ضغط الدم سجل هنا معدل 3 قيايسات متتالية مع فاصل زمني مدته دقيقة بين كل قياس (استعمل ضغط الدم الإنقباضي PAS)
+                                        </p>
+                                    </div>
+                                    <div class="quiz-answer subInfo">
+                                        <div class="answer">
+                                            <input class="hasSubInfo" type="radio" name="qst26" id="qst26op1" value="أقل من 80">
+                                            <label for="qst26op1">أقل من 80</label>
+                                            <div class="subInfoDisplay">
+                                                <div class="alert alert-info" role="alert">
+                                                    لقد أشرت أن ضغط الدم أقل من 80 وهذا منخفض جدا، عليك باستشارة طبيب عاجلا!
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="answer">
+                                            <input class="hasSubInfo" type="radio" name="qst26" id="qst26op2" value="بين 80 و 90">
+                                            <label for="qst26op2">بين 80 و 90</label>
+                                            <div class="subInfoDisplay">
+                                                <div class="alert alert-info" role="alert">
+                                                    لقد أشرت ان ضغط الدم بين 80 و 90 وهذا منخفض قليلا، عليك باستشارة طبيب
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="answer">
+                                            <input type="radio" name="qst26" id="qst26op3" value="بين 91 و 100">
+                                            <label for="qst26op3">بين 91 و 100</label>
+                                        </div>
+                                        <div class="answer">
+                                            <input type="radio" name="qst26" id="qst26op4" value="أكثر من 101">
+                                            <label for="qst26op4">أكثر من 101</label>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </form>
