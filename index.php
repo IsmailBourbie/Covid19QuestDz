@@ -160,10 +160,15 @@
                                     <div class="quiz-question">
                                         <p class="lead">هل تدخن حــاليا؟</p>
                                     </div>
-                                    <div class="quiz-answer">
+                                    <div class="quiz-answer subInfo">
                                         <div class="answer">
-                                            <input type="radio" name="qst4" id="qst4yes" value="نعم">
+                                            <input class="hasSubInfo" type="radio" name="qst4" id="qst4yes" value="نعم">
                                             <label for="qst1yes">نعم</label>
+                                            <div class="subInfoDisplay">
+                                                <div class="alert alert-info" role="alert">
+                                                    لقد اشرت أنك مدخن! استهلاك التبغ يزيد من خطورة الإصـــابة بالفيروس (دراسة صينية 2020)
+                                                </div>
+                                            </div>
                                         </div>
                                         <div class="answer">
                                             <input type="radio" name="qst4" id="qst4no" value="لا">

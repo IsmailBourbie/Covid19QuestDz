@@ -1,14 +1,14 @@
 $(document).ready(function() {
   var quizNumber = $("#quizNumber");
   $("#next").click(function() {
-    let quizNumberInt = Number.parseInt(quizNumber.text());
+    let quizNumberInt = parseInt(quizNumber.text());
     if (quizNumberInt < 10) {
       quizNumber.text(quizNumberInt + 1);
     }
   });
 
   $("#prev").click(function() {
-    let quizNumberInt = Number.parseInt(quizNumber.text());
+    let quizNumberInt = parseInt(quizNumber.text());
     if (quizNumberInt > 1) {
       quizNumber.text(quizNumberInt - 1);
     }
