@@ -43,7 +43,7 @@ body * {
 }
 
 .main .main-header {
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 .main .main-header h1 {
   color: #24be55;
@@ -58,8 +58,18 @@ body * {
   margin-bottom: 50px;
 }
 
+.main .section .figures figcaption {
+  font-size: 25px;
+  color: #24be55;
+}
+.main .section .figures .fever figcaption {
+  margin-left: 10px;
+}
 .main .section p {
   color: #3e3f41;
+}
+.main .section .text-figures p {
+  margin-top: 20px;
 }
 .main .main-footer {
   text-align: center;
@@ -196,6 +206,7 @@ body * {
   height: 20px;
 }
 
-.item {
-  /* min-height: 320px; */
+/*  media queries */
+
+@media (min-width: 992px) {
 }

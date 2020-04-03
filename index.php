@@ -24,7 +24,7 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-xs-8">
-                    <p>بالشراكة مع الأطباء ومهندسي الكمبيوتر</p>
+                    <p>بالشراكة مع الأطباء ومهندسي الإعلام الآلي</p>
                 </div>
             </div>
         </div>
@@ -41,12 +41,24 @@
             </div>
             <div class="section">
                 <div class="row">
-                    <div class="col-md-6 col-lg-push-6">
+                    <div class="col-md-6 col-md-push-6 text-figures">
                         <p class="lead">هل تعاني ( انت أو أي شخص تعرفه) من الحمى أو السعال؟ هل أنت قلق من أنك قد تكون مصابًا بعدوى فيروس كورونا؟ هل تحتاج الى نصيحة طبية؟ سنساعدك. يساعدك استبيان التقييم الذاتي هذا على تلخيص العناصر الرئيسية التي تستلزم زيارة الطبيب أو الإتصال بالمصالح المعنية .</p>
                     </div>
-                    <div class="col-md-6 col-lg-pull-6" style="text-align: center">
-                        <img src="http://covid-quest.com/images/3.fievre.png">
-                        <img src="http://covid-quest.com/images/2.toux.png">
+                    <div class="col-md-6 col-md-pull-6 text-center figures">
+                        <div class="row">
+                            <div class="col-xs-6 col-md-4 col-md-offset-2 fever">
+                                <figure>
+                                    <img src="images/fever.png" width="150px" height="150px" alt="fever">
+                                    <figcaption>حمى</figcaption>
+                                </figure>
+                            </div>
+                            <div class="col-xs-6 col-md-4 headstash">
+                                <figure>
+                                    <img src="images/headstash.png" width="150px" height="150px" alt="headstash">
+                                    <figcaption>صداع</figcaption>
+                                </figure>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -58,7 +70,7 @@
             </div>
 
             <div class="section">
-                <p class="lead">تم تصميم الإستبيان من قبل أطباء بالشراكة مع مهندسي إعلام .</p>
+                <p class="lead">تم تصميم الإستبيان من قبل أطباء بالشراكة مع مهندسي الإعلام الآلي .</p>
             </div>
 
             <div class="main-footer">
