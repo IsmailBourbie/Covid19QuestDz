@@ -30,8 +30,7 @@ $(document).ready(function() {
   });
 
   // Show sub info
-  $(".subInfo input").click(function() {
-    console.log();
+  $(".subInfo input[type=radio]").click(function() {
     $(this)
       .parent()
       .siblings()
@@ -41,6 +40,19 @@ $(document).ready(function() {
       $(this)
         .siblings(".subInfoDisplay")
         .show();
+    }
+  });
+
+  // sub info for checkbox
+  $(".subInfo input[type=checkbox]").click(function() {
+    if ($(this).is(":checked")) {
+      $(this)
+        .siblings(".subInfoDisplay")
+        .show();
+    } else {
+      $(this)
+        .siblings(".subInfoDisplay")
+        .hide();
     }
   });
 });

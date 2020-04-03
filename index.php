@@ -80,7 +80,7 @@
                             <!-- Wrapper for slides -->
                             <div class="carousel-inner" role="listbox">
                                 <!-- QST1 -->
-                                <div class="item active">
+                                <div class="item">
                                     <div class="quiz-title text-center">
                                         <h3>معلومـــات شخصية</h3>
                                     </div>
@@ -448,11 +448,11 @@
                                     </div>
                                     <div class="quiz-answer subInfo">
                                         <div class="answer">
-                                            <input class="hasSubInfo" type="radio" name="qst12" id="qst12yes" value="نعم، باالضبط بعد ظهور الحمى">
-                                            <label for="qst1yes">نعم، باالضبط بعد ظهور الحمى</label>
+                                            <input class="hasSubInfo" type="radio" name="qst12" id="qst12yes" value="نعم، بالضبط بعد ظهور الحمى">
+                                            <label for="qst1yes">نعم، بالضبط بعد ظهور الحمى</label>
                                             <div class="subInfoDisplay">
                                                 <div class="alert alert-info" role="alert">
-                                                    لقد أشرت انك فقدت حاسة الشم ، هذا ليس خطيرا و لكن هو مؤشر للاصابة بفيروس كوفيد ١٩ .
+                                                    لقد أشرت انك فقدت حاسة الشم ، هذا ليس خطيرا و لكن هو مؤشر للاصابة بفيروس كوفيد 19 .
                                                     يجب إخبار الطبيب بهذا عند طلبك إستشارة .
                                                 </div>
                                                 <div class="alert alert-danger" role="alert">
@@ -467,15 +467,275 @@
                                     </div>
                                 </div>
                                 <!-- QST13 -->
+                                <div class="item">
+                                    <div class="quiz-title text-center">
+                                        <h3>معلومـــات شخصية</h3>
+                                    </div>
+                                    <div class="quiz-question">
+                                        <p class="lead">هل فقدت حاسَّة التذوق مؤخرا؟!</p>
+                                    </div>
+                                    <div class="quiz-answer subInfo">
+                                        <div class="answer">
+                                            <input class="hasSubInfo" type="radio" name="qst13" id="qst13yes" value="نعم، بالضبط بعد ظهور الحمى">
+                                            <label for="qst1yes">نعم، بالضبط بعد ظهور الحمى</label>
+                                            <div class="subInfoDisplay">
+                                                <div class="alert alert-info" role="alert">
+                                                    لقد أشرت انك فقدت حاسة التذوق ، هذا ليس خطيرا و لكن هو مؤشر للاصابة بفيروس كوفيد 19 .
+                                                    يجب إخبار الطبيب بهذا عند طلبك إستشارة .
+                                                </div>
+                                                <div class="alert alert-danger" role="alert">
+                                                    في هذه الحالة لا تتناول أدوية مستنشقة خاصة الكورتيكويد حتى عن طريق البلع ، و غرغة الأنف غير منصوح بها لتفادي انتشار الفيروس.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="answer">
+                                            <input type="radio" name="qst13" id="qst13no" value="لا">
+                                            <label for="qst1no">لا</label>
+                                        </div>
+                                    </div>
+                                </div>
                                 <!-- QST14 -->
+                                <div class="item">
+                                    <div class="quiz-title text-center">
+                                        <h3>كيف حـالك؟</h3>
+                                        <h3>هل لديك أعراض؟</h3>
+                                    </div>
+                                    <div class="quiz-question">
+                                        <p class="lead">هل لديك أعراض أخرى حاليا ؟</p>
+                                    </div>
+                                    <div class="quiz-answer subInfo">
+                                        <div class="answer">
+                                            <input type="checkbox" name="qst14[]" id="qst14op1" value="آلام في الحلق عند البلع">
+                                            <label for="qst14op1">آلام في الحلق عند البلع</label>
+                                        </div>
+                                        <div class="answer">
+                                            <input type="checkbox" name="qst14[]" id="qst14op2" value="تسارع نبضات القلب">
+                                            <label for="qst14op2">تسارع نبضات القلب</label>
+                                        </div>
+                                        <div class="answer">
+                                            <input type="checkbox" name="qst14[]" id="qst14op3" value="غثيان أو تقيء">
+                                            <label for="qst14op3">غثيان أو تقيء</label>
+                                        </div>
+                                        <div class="answer">
+                                            <input type="checkbox" name="qst14[]" id="qst14op4" value="إسهال">
+                                            <label for="qst14op4">إسهال</label>
+                                        </div>
+                                        <div class="answer">
+                                            <input type="checkbox" name="qst14[]" id="qst14op5" value="آلام في البطن">
+                                            <label for="qst14op5">آلام في البطن</label>
+                                        </div>
+                                        <div class="answer">
+                                            <input type="checkbox" name="qst14[]" id="qst14op6" value="فقدان الشهية">
+                                            <label for="qst14op6">فقدان الشهية</label>
+                                        </div>
+                                        <div class="answer">
+                                            <input type="checkbox" name="qst14[]" id="qst14op7" value="تعب شديد">
+                                            <label for="qst14op7">تعب شديد</label>
+                                        </div>
+                                        <div class="answer">
+                                            <input class="hasSubInfo" type="checkbox" name="qst14[]" id="qst14op8" value="هذيان">
+                                            <label for="qst14op8">هذيان</label>
+                                            <div class="subInfoDisplay">
+                                                <div class="alert alert-info" role="alert">
+                                                    لقد أشرت بأنك في حالة هذيان، ولهذا فانت تحتاج إلى استشارة طبية عاجلة.
+                                                    إتصل بالرقم <u>3010</u>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="answer">
+                                            <input class="hasSubInfo" type="checkbox" name="qst14[]" id="qst14op9" value="توعك (وعكة صحية)">
+                                            <label for="qst14op9">توعك (وعكة صحية)</label>
+                                            <div class="subInfoDisplay">
+                                                <div class="alert alert-info" role="alert">
+                                                    لقد أشرت إلى وجود وعكة صحية، ولهذا فانت تحتاج إلى استشارة طبية عاجلة.
+                                                    إتصل بالرقم <u>3010</u>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- QST15 -->
+                                <div class="item">
+                                    <div class="quiz-title text-center">
+                                        <h3>هل لديك أمراض مزمنة؟</h3>
+                                    </div>
+                                    <div class="quiz-question">
+                                        <p class="lead">هل تعاني من مرض تنفسي مزمن؟</p>
+                                    </div>
+                                    <div class="quiz-answer subqst">
+                                        <div class="answer">
+                                            <input class="yes" type="radio" name="qst15" id="qst15yes" value="نعم">
+                                            <label for="qst15yes">نعم</label>
+                                        </div>
+                                        <!-- Sub question -->
+                                        <div class="subshow hide">
+                                            <div class="quiz-question">
+                                                <p class="lead">إذا كانت الإجابة بنعم، مـا هي الأمراض؟</p>
+                                            </div>
+                                            <div class="quiz-answer">
+                                                <div class="answer">
+                                                    <input type="checkbox" name="qst15yes[]" id="qst15yesopt1" value="مرض الانسداد الرئوي المزمن شديد  يحتاج  إلى الأكسجين يوميا (BPCO)">
+                                                    <label for="qst15yesopt1">مرض الانسداد الرئوي المزمن شديد يحتاج إلى الأكسجين يوميا (BPCO).</label>
+                                                </div>
+                                                <div class="answer">
+                                                    <input type="checkbox" name="qst15yes[]" id="qst15yesopt2" value=" مرض الانسداد الرئوي المزمن خفيف إلى معتدل (BPCO).">
+                                                    <label for="qst15yesopt2"> مرض الانسداد الرئوي المزمن خفيف إلى معتدل (BPCO).</label>
+                                                </div>
+                                                <div class="answer">
+                                                    <input type="checkbox" name="qst15yes[]" id="qst15yesopt3" value="الربو">
+                                                    <label for="qst15yesopt3">الربو</label>
+                                                </div>
+                                                <div class="answer">
+                                                    <input type="checkbox" name="qst15yes[]" id="qst15yesopt4" value="سرطان الرئة">
+                                                    <label for="qst15yesopt4">سرطان الرئة</label>
+                                                </div>
+                                                <div class="answer">
+                                                    <input type="checkbox" name="qst15yes[]" id="qst15yesopt5" value="تمدد القصبات الهوائية">
+                                                    <label for="qst15yesopt5">تمدد القصبات الهوائية</label>
+                                                </div>
+                                                <div class="answer">
+                                                    <input type="checkbox" name="qst15yes[]" id="qst15yesopt6" value="تَليّف رئوي (fibrose)">
+                                                    <label for="qst15yesopt6">تَليّف رئوي (fibrose)</label>
+                                                </div>
+                                                <div class="answer">
+                                                    <input type="checkbox" name="qst15yes[]" id="qst15yesopt7" value="مرض الساركويد (sarcoïdose)">
+                                                    <label for="qst15yesopt7">مرض الساركويد (sarcoïdose)</label>
+                                                </div>
+                                                <div class="answer">
+                                                    <input type="checkbox" name="qst15yes[]" id="qst15yesopt8" value="زرع الرئة">
+                                                    <label for="qst15yesopt8">زرع الرئة</label>
+                                                </div>
+                                                <div class="answer">
+                                                    <input type="checkbox" name="qst15yes[]" id="qst15yesopt9" value=" التَليّف الكيسي الرئوي (mucoviscidose)">
+                                                    <label for="qst15yesopt9"> التَليّف الكيسي الرئوي (mucoviscidose)</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="answer">
+                                            <input class="no" type="radio" name="qst15" id="qst15no" value="لا">
+                                            <label for="qst15no">لا</label>
+                                        </div>
+                                    </div>
+                                </div>
                                 <!-- QST16 -->
+                                <div class="item">
+                                    <div class="quiz-title text-center">
+                                        <h3>هل لديك أمراض مزمنة؟</h3>
+                                    </div>
+                                    <div class="quiz-question">
+                                        <p class="lead">إذا كنت تعاني من مرض تنفسي مزمن ، هل اضطررت إلى زيادة في جرعات دواءك (دواء مستنشق أو أكسيجين مثلا)</p>
+                                    </div>
+                                    <div class="quiz-answer subInfo">
+                                        <div class="answer">
+                                            <input class="hasSubInfo" type="radio" name="qst16" id="qst16yes" value="نعم">
+                                            <label for="qst1yes">نعم</label>
+                                            <div class="subInfoDisplay">
+                                                <div class="alert alert-info" role="alert">
+                                                    إذ لم تتحسن حالتك بعد زيادة جرعات الدواء،
+                                                    عليك باستشارة الطبيب في أقرب وقت.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="answer">
+                                            <input type="radio" name="qst16" id="qst16no" value="لا">
+                                            <label for="qst1no">لا</label>
+                                        </div>
+                                    </div>
+                                </div>
                                 <!-- QST17 -->
+                                <div class="item active">
+                                    <div class="quiz-title text-center">
+                                        <h3>هل لديك أمراض مزمنة؟</h3>
+                                    </div>
+                                    <div class="quiz-question">
+                                        <p class="lead">هل تتناول حاليا دواء آخر لعلاج مرض مزمن آخر؟</p>
+                                    </div>
+                                    <div class="quiz-answer subqst">
+                                        <div class="answer">
+                                            <input class="yes" type="radio" name="qst17" id="qst17yes" value="نعم">
+                                            <label for="qst17yes">نعم</label>
+                                        </div>
+                                        <!-- Sub question -->
+                                        <div class="subshow hide">
+                                            <div class="quiz-question">
+                                                <p class="lead">إذا كانت الإجابة بنعم، مـا هي الأمراض؟</p>
+                                            </div>
+                                            <div class="quiz-answer subInfo">
+                                                <div class="answer">
+                                                    <input type="checkbox" name="qst17yes[]" id="qst17yesopt1" value="فشل القلب احتشاء عضلة القلب (IDM) ">
+                                                    <label for="qst17yesopt1">فشل القلب احتشاء عضلة القلب (IDM) </label>
+                                                </div>
+                                                <div class="answer">
+                                                    <input type="checkbox" name="qst17yes[]" id="qst17yesopt2" value="قصور كلوي يحتاج إلى تصفية">
+                                                    <label for="qst17yesopt2">قصور كلوي يحتاج إلى تصفية</label>
+                                                </div>
+                                                <div class="answer">
+                                                    <input class="hasSubInfo" type="checkbox" name="qst17yes[]" id="qst17yesopt3" value="مرض السكري">
+                                                    <label for="qst17yesopt3">مرض السكري</label>
+                                                    <div class="subInfoDisplay">
+                                                        <div class="alert alert-info" role="alert">
+                                                            مرض السكرى يمكن أن ينقص مناعتك في حالة الأصابة بالكوفيد 19.
+                                                            يجب عليك استشارة طبيبك.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="answer">
+                                                    <input class="hasSubInfo" type="checkbox" name="qst17yes[]" id="qst17yesopt4" value="إرتفاع ضغط الدم">
+                                                    <label for="qst17yesopt4">إرتفاع ضغط الدم</label>
+                                                    <div class="subInfoDisplay">
+                                                        <div class="alert alert-info" role="alert">
+                                                            إذا كان من بين أدويتك لارتفاع الضغط دواء مدر للبول ولديك حمى عليك بشرب كمية من الماء،
+                                                            في بعض الحالات يمكن إنقاص الجرعة أو توقيفه مؤقتا خاصة إذا لاحظت إنخفاض حاد في الضغط.
+                                                            لكن يجب عليك دائما استشارة طبيبك الخاص.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="answer">
+                                                    <input type="checkbox" name="qst17yes[]" id="qst17yesopt5" value="سرطان (يعالج بالكيماوي أو بالأشعة)">
+                                                    <label for="qst17yesopt5">سرطان (يعالج بالكيماوي أو بالأشعة)</label>
+                                                </div>
+                                                <div class="answer">
+                                                    <input class="hasSubInfo" type="checkbox" name="qst17yes[]" id="qst17yesopt6" value="مرض في الكبد (التهاب أو تلف الخلايا)">
+                                                    <label for="qst17yesopt6">مرض في الكبد (التهاب أو تلف الخلايا)</label>
+                                                    <div class="subInfoDisplay">
+                                                        <div class="alert alert-info" role="alert">لقد أشرت لوجود مرض في الكبد.
+                                                            إعلم أن جرعة عالية من دواء البراسيتامول يمكن أن تكون سامة و خطيرة على كبدك.
+                                                            استشر طبيبك قبل استعماله</div>
+                                                    </div>
+                                                </div>
+                                                <div class="answer">
+                                                    <input type="checkbox" name="qst17yes[]" id="qst17yesopt7" value="مرض نقص المناعة المكتسب (غير متحكم فيه = عدد خلايا CD4 أقل من 200)">
+                                                    <label for="qst17yesopt7">مرض نقص المناعة المكتسب (غير متحكم فيه = عدد خلايا CD4 أقل من 200)</label>
+                                                </div>
+                                                <div class="answer">
+                                                    <input type="checkbox" name="qst17yes[]" id="qst17yesopt8" value="زرع الأعضاء ">
+                                                    <label for="qst17yesopt8">زرع الأعضاء </label>
+                                                </div>
+                                                <div class="answer">
+                                                    <input type="checkbox" name="qst17yes[]" id="qst17yesopt9" value="سمنة حادة (مؤشر كتلة الجسم يفوق 40 كغ/م2)">
+                                                    <label for="qst17yesopt9">سمنة حادة (مؤشر كتلة الجسم يفوق 40 كغ/م2)</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="answer">
+                                            <input class="no" type="radio" name="qst17" id="qst17no" value="لا">
+                                            <label for="qst17no">لا</label>
+                                        </div>
+                                        <div class="answer">
+                                            <input class="no" type="radio" name="qst17" id="qst17idk" value="لا أدري">
+                                            <label for="qst17idk">لا أدري</label>
+                                        </div>
+                                    </div>
+                                </div>
                                 <!-- QST18 -->
                                 <!-- QST19 -->
                                 <!-- QST20 -->
                                 <!-- QST21 -->
                                 <!-- QST22 -->
                                 <!-- QST23 -->
+                                <!-- QST24 -->
+                                <!-- QST25 -->
+                                <!-- QST26 -->
                             </div>
                         </div>
                     </form>
