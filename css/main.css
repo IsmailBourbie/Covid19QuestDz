@@ -153,6 +153,10 @@ body * {
   width: 90%;
   margin: auto;
 }
+
+#quizModal #quizSlider .item .subInfoDisplay .alert {
+  margin-bottom: 10px;
+}
 #quizModal #quizSlider .item .subshow .quiz-question p {
   font-size: 18px;
 }

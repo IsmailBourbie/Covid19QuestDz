@@ -1,16 +1,16 @@
 $(document).ready(function() {
-  var quizNumber = $("#quizNumber");
-  $("#next").click(function() {
-    let quizNumberInt = parseInt(quizNumber.text());
-    if (quizNumberInt < 10) {
-      quizNumber.text(quizNumberInt + 1);
-    }
-  });
-
-  $("#prev").click(function() {
-    let quizNumberInt = parseInt(quizNumber.text());
-    if (quizNumberInt > 1) {
-      quizNumber.text(quizNumberInt - 1);
+  $("#quizSlider").on("slide.bs.carousel", function(e) {
+    let quizNumber = $("#quizNumber"),
+      direction = e.direction,
+      quizNumberInt = parseInt(quizNumber.text());
+    if (direction == "left") {
+      if (quizNumberInt < 10) {
+        quizNumber.text(quizNumberInt + 1);
+      }
+    } else if (direction == "right") {
+      if (quizNumberInt > 1) {
+        quizNumber.text(quizNumberInt - 1);
+      }
     }
   });
 

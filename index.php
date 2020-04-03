@@ -392,7 +392,80 @@
                                     </div>
                                 </div>
                                 <!-- QST11 -->
+                                <div class="item">
+                                    <div class="quiz-title text-center">
+                                        <h3>كيف حـالك؟</h3>
+                                        <h3>هل لديك أعراض؟</h3>
+                                    </div>
+                                    <div class="quiz-question">
+                                        <p class="lead">هل لديك مشــاكل في التنفس؟</p>
+                                    </div>
+                                    <div class="quiz-answer subInfo">
+                                        <div class="answer">
+                                            <input class="hasSubInfo" type="radio" name="qst11" id="qst11op1" value="نعم انا جد متضــايق">
+                                            <label for="qst11op1">نعم انا جد متضــايق</label>
+                                            <div class="subInfoDisplay">
+                                                <div class="alert alert-info" role="alert">
+                                                    لقد اشرت أنك جد متضــايق! ولهذا حـالتك تبدو خطيرة، عليك الاتصــال بالإسعـاف <u>3010</u>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="answer">
+                                            <input class="hasSubInfo" type="radio" name="qst11" id="qst11op2" value="نعم انـا متضـايق نوعا مــا">
+                                            <label for="qst11op2">نعم انـا متضـايق نوعا مــا</label>
+                                            <div class="subInfoDisplay">
+                                                <div class="alert alert-info" role="alert">
+                                                    لقد اشرت أنك متضـايق نوعـا ما! ولهذا عليك استشــارة طبيب العيــادة
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="answer">
+                                            <input class="hasSubInfo" type="radio" name="qst11" id="qst11op3" value="أنا أتنفس بشكل غير معتــاد">
+                                            <label for="qst11op3">أنا أتنفس بشكل غير معتــاد</label>
+                                            <div class="subInfoDisplay">
+                                                <div class="alert alert-info" role="alert">
+                                                    إذا كنت تعالج بالفعل من مرض تنفسي مزمن ، فلا تتردد في الاتصال بطبيبك للسؤال عما إذا كان يجب عليك تغيير العلاج المعتاد.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="answer">
+                                            <input type="radio" name="qst11" id="qst11op4" value="أنا أتنفس بشكل عــادي">
+                                            <label for="qst11op4">أنا أتنفس بشكل عــادي</label>
+                                        </div>
+                                        <div class="answer">
+                                            <input type="radio" name="qst11" id="qst11op5" value="بالطبع انـا أتنفس جيدا">
+                                            <label for="qst11op5">بالطبع انـا أتنفس جيدا</label>
+                                        </div>
+                                    </div>
+                                </div>
                                 <!-- QST12 -->
+                                <div class="item">
+                                    <div class="quiz-title text-center">
+                                        <h3>معلومـــات شخصية</h3>
+                                    </div>
+                                    <div class="quiz-question">
+                                        <p class="lead">هل فقدت حاسَّة الشم مؤخرا؟!</p>
+                                    </div>
+                                    <div class="quiz-answer subInfo">
+                                        <div class="answer">
+                                            <input class="hasSubInfo" type="radio" name="qst12" id="qst12yes" value="نعم، باالضبط بعد ظهور الحمى">
+                                            <label for="qst1yes">نعم، باالضبط بعد ظهور الحمى</label>
+                                            <div class="subInfoDisplay">
+                                                <div class="alert alert-info" role="alert">
+                                                    لقد أشرت انك فقدت حاسة الشم ، هذا ليس خطيرا و لكن هو مؤشر للاصابة بفيروس كوفيد ١٩ .
+                                                    يجب إخبار الطبيب بهذا عند طلبك إستشارة .
+                                                </div>
+                                                <div class="alert alert-danger" role="alert">
+                                                    في هذه الحالة لا تتناول أدوية مستنشقة خاصة الكورتيكويد حتى عن طريق البلع ، و غرغة الأنف غير منصوح بها لتفادي انتشار الفيروس.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="answer">
+                                            <input type="radio" name="qst12" id="qst12no" value="لا">
+                                            <label for="qst1no">لا</label>
+                                        </div>
+                                    </div>
+                                </div>
                                 <!-- QST13 -->
                                 <!-- QST14 -->
                                 <!-- QST16 -->
