@@ -73,7 +73,7 @@ body * {
 }
 .main .main-footer {
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 .main .main-footer button {
   margin: auto;
@@ -206,7 +206,23 @@ body * {
   height: 20px;
 }
 
-/*  media queries */
+/* Footer start */
 
-@media (min-width: 992px) {
+.footer footer {
+  border-top: 1px solid #ccc;
+  margin-bottom: 40px;
+  padding: 10px;
 }
+
+.footer footer .sante-gov {
+  padding-left: 0px;
+}
+.footer footer a,
+.footer footer p {
+  color: #656868;
+}
+.footer footer a {
+  text-decoration: none;
+  color: #393b41;
+}
+/*  media queries */

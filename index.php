@@ -1022,6 +1022,27 @@
     </div><!-- /.modal -->
 
 
+    <div class="footer container">
+        <footer>
+            <div class="row">
+                <div class="col-lg-4 col-xs-6">
+                    <div class="row text-left">
+                        <div class="col-md-3 col-xs-5">
+                            <a href="#">GITHUB</a>
+
+                        </div>
+                        <div class="col-md-4 col-xs-7 sante-gov">
+                            <a href="#">SANTE-GOV</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-xs-6">
+                    <p>كل الحقوق محفوظة 2020 &copy;</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
     <script src="js/jquery-1.12.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/plugins.js"></script>
