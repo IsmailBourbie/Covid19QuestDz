@@ -992,6 +992,10 @@
                                         </div>
                                     </div>
                                 </div>
+                                <!-- Show result -->
+                                <div class="item">
+                                    <button id="show-result" class="btn btn-lg btn-success">Show result</button>
+                                </div>
                             </div>
                         </div>
                     </form>
