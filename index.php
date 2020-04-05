@@ -79,7 +79,7 @@
         </div>
     </div>
     <!-- Quiz Modal Slider Start -->
-    <div class="modal fade" id="quizModal" tabindex="-1" role="dialog" aria-labelledby="quizModal">
+    <div class="modal fade" id="quizModal" tabindex="-1" role="dialog" aria-labelledby="quizModal" data-backdrop="static" data-keyboard=false>
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -92,7 +92,7 @@
                             <!-- Wrapper for slides -->
                             <div class="carousel-inner" role="listbox">
                                 <!-- QST1 -->
-                                <div class="item">
+                                <div class="item active">
                                     <div class="quiz-title text-center">
                                         <h3>معلومـــات شخصية</h3>
                                     </div>
@@ -954,7 +954,7 @@
                                     </div>
                                 </div>
                                 <!-- QST26 -->
-                                <div class="item active">
+                                <div class="item">
                                     <div class="quiz-title text-center">
                                         <h3>قياساتك؟</h3>
                                     </div>
@@ -1002,7 +1002,7 @@
                                             </div>
                                             <div class="col-lg-4">
                                                 <div class="reset-quiz">
-                                                    <button type="reset" class="btn btn-danger btn-lg">إعـادة الإستبيــان</button>
+                                                    <button id="reset-quiz-btn" type="reset" class="btn btn-danger btn-lg">إعـادة الإستبيــان</button>
                                                 </div>
                                             </div>
                                         </div>

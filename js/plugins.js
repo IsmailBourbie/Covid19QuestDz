@@ -79,4 +79,17 @@ $(document).ready(function () {
     $("#danger-display > span").text(dangerSum);
     $("#result-display").show();
   });
+
+  // Reset the quiz
+
+  $("#reset-quiz-btn").click(function () {
+    $("#quizSlider").carousel(0);
+    $("#quizNumber").text(0);
+  });
+
+  // reset on modal hide
+
+  $("#quizModal").on("hide.bs.modal", function (e) {
+    $("#reset-quiz-btn").click();
+  });
 });
