@@ -14,6 +14,15 @@ $(document).ready(function () {
     }
   });
 
+  // disabled button if the last item
+  $("#quizSlider").on("slid.bs.carousel", function (e) {
+    if ($(".item.active").hasClass("lastItem")) {
+      $("#next").fadeOut();
+    } else {
+      $("#next").fadeIn();
+    }
+  });
+
   // Show sub questions
   $(".subqst input").click(function () {
     if ($(this).hasClass("yes")) {
@@ -42,20 +51,32 @@ $(document).ready(function () {
 
   // Calculate the final result
 
-  $("#show-result").click(function (e) {
+  $("#show-result-btn").click(function (e) {
     e.preventDefault();
-    let ProbabilitySum = 0,
-      i;
+    let probabilitySum = 0,
+      dangerSum = 0,
+      i,
+      j;
     let selectedInputsProb = $("input[data-probability]:checked");
-    // let selectedInputsDanger = $("input[data-danger]:checked");
+    let selectedInputsDanger = $("input[data-danger]:checked");
+
+    // calculate probability sum
     for (i = 0; i < selectedInputsProb.length; i++) {
       let selectedInputProbMark = parseFloat(
-        $("input[data-probability]:checked").eq(i).attr("data-probability")
+        selectedInputsProb.eq(i).attr("data-probability")
       );
-
-      ProbabilitySum = ProbabilitySum + selectedInputProbMark;
+      probabilitySum = probabilitySum + selectedInputProbMark;
     }
 
-    alert(ProbabilitySum);
+    for (j = 0; j < selectedInputsDanger.length; j++) {
+      let selectedInputDangerMark = parseFloat(
+        selectedInputsDanger.eq(j).attr("data-danger")
+      );
+      dangerSum = dangerSum + selectedInputDangerMark;
+    }
+
+    $("#probability-display > span").text(probabilitySum);
+    $("#danger-display > span").text(dangerSum);
+    $("#result-display").show();
   });
 });

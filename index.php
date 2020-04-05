@@ -92,7 +92,7 @@
                             <!-- Wrapper for slides -->
                             <div class="carousel-inner" role="listbox">
                                 <!-- QST1 -->
-                                <div class="item active">
+                                <div class="item">
                                     <div class="quiz-title text-center">
                                         <h3>معلومـــات شخصية</h3>
                                     </div>
@@ -954,7 +954,7 @@
                                     </div>
                                 </div>
                                 <!-- QST26 -->
-                                <div class="item">
+                                <div class="item active">
                                     <div class="quiz-title text-center">
                                         <h3>قياساتك؟</h3>
                                     </div>
@@ -993,8 +993,28 @@
                                     </div>
                                 </div>
                                 <!-- Show result -->
-                                <div class="item">
-                                    <button id="show-result" class="btn btn-lg btn-success">Show result</button>
+                                <div class="item lastItem">
+                                    <div class="result">
+                                        <div class="row">
+                                            <div class="col-lg-4 col-lg-offset-2">
+                                                <button id="show-result-btn" class="btn btn-lg btn-success">أظهر النتيجة</button>
+                                                <div class="show-result"></div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="reset-quiz">
+                                                    <button type="reset" class="btn btn-danger btn-lg">إعـادة الإستبيــان</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="result-display">
+                                        <div id="probability-display" class="alert" role="alert">
+                                            احتمـــال الإصابة: <span></span>
+                                        </div>
+                                        <div id="danger-display" class="alert" role="alert">
+                                            الخطورة: <span></span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

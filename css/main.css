@@ -79,7 +79,7 @@ body * {
   margin: auto;
   padding: 15px;
   font-size: 30px;
-  width: 300px;
+  width: 290px;
   background-color: #24be55;
 }
 
@@ -206,6 +206,23 @@ body * {
   height: 20px;
 }
 
+/* result item */
+
+.lastItem .result button {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.lastItem #result-display {
+  display: none;
+}
+.lastItem #result-display .alert {
+  margin-bottom: 0px;
+  font-size: 28px;
+}
+.lastItem #result-display .alert span {
+  font-weight: bold;
+  font-size: 20px;
+}
 /* Footer start */
 
 .footer footer {
@@ -225,4 +242,5 @@ body * {
   text-decoration: none;
   color: #393b41;
 }
+
 /*  media queries */
