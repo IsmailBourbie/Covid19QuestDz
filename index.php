@@ -101,27 +101,27 @@
                                     </div>
                                     <div class="quiz-answer">
                                         <div class="answer">
-                                            <input type="radio" name="qst1" id="qst1op1" value="18 - 30 سنة">
+                                            <input type="radio" name="qst1" id="qst1op1" value="18 - 30 سنة" data-probability="3" data-danger="0">
                                             <label for="qst1op1">18 - 30 سنة</label>
                                         </div>
                                         <div class="answer">
-                                            <input type="radio" name="qst1" id="qst1op2" value="31 - 40 سنة">
+                                            <input type="radio" name="qst1" id="qst1op2" value="31 - 40 سنة" data-probability="3" data-danger="0">
                                             <label for="qst1op2">31 - 40 سنة</label>
                                         </div>
                                         <div class="answer">
-                                            <input type="radio" name="qst1" id="qst1op3" value="41 - 50 سنة">
+                                            <input type="radio" name="qst1" id="qst1op3" value="41 - 50 سنة" data-probability="3" data-danger="0">
                                             <label for="qst1op3">41 - 50 سنة</label>
                                         </div>
                                         <div class="answer">
-                                            <input type="radio" name="qst1" id="qst1op4" value="51 - 60 سنة">
+                                            <input type="radio" name="qst1" id="qst1op4" value="51 - 60 سنة" data-probability="3" data-danger="0">
                                             <label for="qst1op4">51 - 60 سنة</label>
                                         </div>
                                         <div class="answer">
-                                            <input type="radio" name="qst1" id="qst1op5" value="61 - 70 سنة">
+                                            <input type="radio" name="qst1" id="qst1op5" value="61 - 70 سنة" data-probability="2" data-danger="1">
                                             <label for="qst1op5">61 - 70 سنة</label>
                                         </div>
                                         <div class="answer">
-                                            <input type="radio" name="qst1" id="qst1op6" value="71 سنة وأكثر">
+                                            <input type="radio" name="qst1" id="qst1op6" value="71 سنة وأكثر" data-probability="2" data-danger="2">
                                             <label for="qst1op6">71 سنة وأكثر</label>
                                         </div>
                                     </div>
@@ -136,11 +136,11 @@
                                     </div>
                                     <div class="quiz-answer">
                                         <div class="answer">
-                                            <input type="radio" name="qst2" id="qst2yes" value="نعم">
+                                            <input type="radio" name="qst2" id="qst2yes" value="نعم" data-probability="2">
                                             <label for="qst2yes">نعم</label>
                                         </div>
                                         <div class="answer">
-                                            <input type="radio" name="qst2" id="qst2no" value="لا">
+                                            <input type="radio" name="qst2" id="qst2no" value="لا" data-probability="1">
                                             <label for="qst2no">لا</label>
                                         </div>
                                     </div>
@@ -155,11 +155,11 @@
                                     </div>
                                     <div class="quiz-answer">
                                         <div class="answer">
-                                            <input type="radio" name="qst3" id="qst3yes" value="نعم">
+                                            <input type="radio" name="qst3" id="qst3yes" value="نعم" data-probability="4">
                                             <label for="qst3yes">نعم</label>
                                         </div>
                                         <div class="answer">
-                                            <input type="radio" name="qst3" id="qst3no" value="لا">
+                                            <input type="radio" name="qst3" id="qst3no" value="لا" data-probability="0">
                                             <label for="qst3no">لا</label>
                                         </div>
                                     </div>
@@ -174,7 +174,7 @@
                                     </div>
                                     <div class="quiz-answer subInfo">
                                         <div class="answer">
-                                            <input class="hasSubInfo" type="radio" name="qst4" id="qst4yes" value="نعم">
+                                            <input class="hasSubInfo" type="radio" name="qst4" id="qst4yes" value="نعم" data-probability="4" data-danger="1">
                                             <label for="qst1yes">نعم</label>
                                             <div class="subInfoDisplay">
                                                 <div class="alert alert-danger" role="alert">
@@ -183,7 +183,7 @@
                                             </div>
                                         </div>
                                         <div class="answer">
-                                            <input type="radio" name="qst4" id="qst4no" value="لا">
+                                            <input type="radio" name="qst4" id="qst4no" value="لا" data-probability="0" data-danger="0">
                                             <label for="qst1no">لا</label>
                                         </div>
                                     </div>
@@ -198,15 +198,15 @@
                                     </div>
                                     <div class="quiz-answer">
                                         <div class="answer">
-                                            <input type="radio" name="qst5" id="qst5yes" value="نعم">
+                                            <input type="radio" name="qst5" id="qst5yes" value="نعم" data-probability="5">
                                             <label for="qst1yes">نعم</label>
                                         </div>
                                         <div class="answer">
-                                            <input type="radio" name="qst5" id="qst5no" value="لا">
+                                            <input type="radio" name="qst5" id="qst5no" value="لا" data-probability="0">
                                             <label for="qst1no">لا</label>
                                         </div>
                                         <div class="answer">
-                                            <input type="radio" name="qst5" id="qst5idk" value="لا أدري">
+                                            <input type="radio" name="qst5" id="qst5idk" value="لا أدري" data-probability="3">
                                             <label for="qst5idk">لا أدري</label>
                                         </div>
                                     </div>
@@ -232,21 +232,21 @@
                                             </div>
                                             <div class="quiz-answer">
                                                 <div class="answer">
-                                                    <input type="radio" name="qst6yes" id="qst6yesopt1" value="أقل من 48 سـاعة">
+                                                    <input type="radio" name="qst6yes" id="qst6yesopt1" value="أقل من 48 سـاعة" data-probability="3">
                                                     <label for="qst6yesopt1">أقل من 48 سـاعة</label>
                                                 </div>
                                                 <div class="answer">
-                                                    <input type="radio" name="qst6yes" id="qst6yesopt2" value="3 إلى 7 أيــام">
+                                                    <input type="radio" name="qst6yes" id="qst6yesopt2" value="3 إلى 7 أيــام" data-probability="4">
                                                     <label for="qst6yesopt2">3 إلى 7 أيــام</label>
                                                 </div>
                                                 <div class="answer">
-                                                    <input type="radio" name="qst6yes" id="qst6yesopt3" value="أكثر من أسبوع">
+                                                    <input type="radio" name="qst6yes" id="qst6yesopt3" value="أكثر من أسبوع" data-probability="5">
                                                     <label for="qst6yesopt3">أكثر من أسبوع</label>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="answer">
-                                            <input class="no" type="radio" name="qst6" id="qst6no" value="لا">
+                                            <input class="no" type="radio" name="qst6" id="qst6no" value="لا" data-probability="0">
                                             <label for="qst6no">لا</label>
                                         </div>
                                     </div>
@@ -272,21 +272,21 @@
                                             </div>
                                             <div class="quiz-answer">
                                                 <div class="answer">
-                                                    <input type="radio" name="qst7yes" id="qst7yesopt1" value="أقل من 48 سـاعة">
+                                                    <input type="radio" name="qst7yes" id="qst7yesopt1" value="أقل من 48 سـاعة" data-probability="3">
                                                     <label for="qst7yesopt1">أقل من 48 سـاعة</label>
                                                 </div>
                                                 <div class="answer">
-                                                    <input type="radio" name="qst7yes" id="qst7yesopt2" value="3 إلى 7 أيــام">
+                                                    <input type="radio" name="qst7yes" id="qst7yesopt2" value="3 إلى 7 أيــام" data-probability="4">
                                                     <label for="qst7yesopt2">3 إلى 7 أيــام</label>
                                                 </div>
                                                 <div class="answer">
-                                                    <input type="radio" name="qst7yes" id="qst7yesopt3" value="أكثر من أسبوع">
+                                                    <input type="radio" name="qst7yes" id="qst7yesopt3" value="أكثر من أسبوع" data-probability="5">
                                                     <label for="qst7yesopt3">أكثر من أسبوع</label>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="answer">
-                                            <input class="no" type="radio" name="qst7" id="qst7no" value="لا">
+                                            <input class="no" type="radio" name="qst7" id="qst7no" value="لا" data-probability="0">
                                             <label for="qst7no">لا</label>
                                         </div>
                                     </div>
@@ -302,23 +302,23 @@
                                     </div>
                                     <div class="quiz-answer subInfo">
                                         <div class="answer">
-                                            <input type="radio" name="qst8" id="qst8op1" value="لا أدري، لا يمكنني قيـاس درجة الحرارة">
+                                            <input type="radio" name="qst8" id="qst8op1" value="لا أدري، لا يمكنني قيـاس درجة الحرارة" data-probability="2">
                                             <label for="qst8op1">لا أدري، لا يمكنني قيـاس درجة الحرارة</label>
                                         </div>
                                         <div class="answer">
-                                            <input type="radio" name="qst8" id="qst8op2" value="أقل من 35°م">
+                                            <input type="radio" name="qst8" id="qst8op2" value="أقل من 35°م" data-probability="4">
                                             <label for="qst8op2">أقل من 35°م</label>
                                         </div>
                                         <div class="answer">
-                                            <input type="radio" name="qst8" id="qst8op3" value="بين 35°م و 37°م">
+                                            <input type="radio" name="qst8" id="qst8op3" value="بين 35°م و 37°م" data-probability="1">
                                             <label for="qst8op3">بين 35°م و 37°م</label>
                                         </div>
                                         <div class="answer">
-                                            <input type="radio" name="qst8" id="qst8op4" value="بين 38°م و 39°م">
+                                            <input type="radio" name="qst8" id="qst8op4" value="بين 38°م و 39°م" data-probability="3">
                                             <label for="qst8op4">بين 38°م و 39°م</label>
                                         </div>
                                         <div class="answer">
-                                            <input class="hasSubInfo" type="radio" name="qst8" id="qst8op5" value="أكثر من 39°م">
+                                            <input class="hasSubInfo" type="radio" name="qst8" id="qst8op5" value="أكثر من 39°م" data-probability="4">
                                             <label for="qst8op5">أكثر من 39°م</label>
                                             <div class="subInfoDisplay">
                                                 <div class="alert alert-info" role="alert">
@@ -348,17 +348,17 @@
                                             </div>
                                             <div class="quiz-answer">
                                                 <div class="answer">
-                                                    <input type="radio" name="qst9yes" id="qst9yesopt1" value="سيلان أخضر وخشن نوعـا مـا">
+                                                    <input type="radio" name="qst9yes" id="qst9yesopt1" value="سيلان أخضر وخشن نوعـا مـا" data-probability="1">
                                                     <label for="qst9yesopt1">سيلان أخضر وخشن نوعـا مـا</label>
                                                 </div>
                                                 <div class="answer">
-                                                    <input type="radio" name="qst9yes" id="qst9yesopt2" value="سيلان شفـــاف يشبه المــاء">
+                                                    <input type="radio" name="qst9yes" id="qst9yesopt2" value="سيلان شفـــاف يشبه المــاء" data-probability="2">
                                                     <label for="qst9yesopt2">سيلان شفـــاف يشبه المــاء</label>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="answer">
-                                            <input class="no" type="radio" name="qst9" id="qst9no" value="لا">
+                                            <input class="no" type="radio" name="qst9" id="qst9no" value="لا" data-probability="0">
                                             <label for="qst9no">لا</label>
                                         </div>
                                     </div>
@@ -384,21 +384,21 @@
                                             </div>
                                             <div class="quiz-answer">
                                                 <div class="answer">
-                                                    <input type="radio" name="qst10yes" id="qst10yesopt1" value="الصدر">
+                                                    <input type="radio" name="qst10yes" id="qst10yesopt1" value="الصدر" data-probability="4">
                                                     <label for="qst10yesopt1">الصدر</label>
                                                 </div>
                                                 <div class="answer">
-                                                    <input type="radio" name="qst10yes" id="qst10yesopt2" value="الرأس">
+                                                    <input type="radio" name="qst10yes" id="qst10yesopt2" value="الرأس" data-probability="3">
                                                     <label for="qst10yesopt2">الرأس</label>
                                                 </div>
                                                 <div class="answer">
-                                                    <input type="radio" name="qst10yes" id="qst10yesopt3" value="عضلات الجسم">
+                                                    <input type="radio" name="qst10yes" id="qst10yesopt3" value="عضلات الجسم" data-probability="4">
                                                     <label for="qst10yesopt3">عضلات الجسم</label>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="answer">
-                                            <input class="no" type="radio" name="qst10" id="qst10no" value="لا">
+                                            <input class="no" type="radio" name="qst10" id="qst10no" value="لا" data-probability="0">
                                             <label for="qst10no">لا</label>
                                         </div>
                                     </div>
@@ -414,7 +414,7 @@
                                     </div>
                                     <div class="quiz-answer subInfo">
                                         <div class="answer">
-                                            <input class="hasSubInfo" type="radio" name="qst11" id="qst11op1" value="نعم انا جد متضــايق">
+                                            <input class="hasSubInfo" type="radio" name="qst11" id="qst11op1" value="نعم انا جد متضــايق" data-probability="5" data-danger="2">
                                             <label for="qst11op1">نعم انا جد متضــايق</label>
                                             <div class="subInfoDisplay">
                                                 <div class="alert alert-info" role="alert">
@@ -423,7 +423,7 @@
                                             </div>
                                         </div>
                                         <div class="answer">
-                                            <input class="hasSubInfo" type="radio" name="qst11" id="qst11op2" value="نعم انـا متضـايق نوعا مــا">
+                                            <input class="hasSubInfo" type="radio" name="qst11" id="qst11op2" value="نعم انـا متضـايق نوعا مــا" data-probability="4" data-danger="1">
                                             <label for="qst11op2">نعم انـا متضـايق نوعا مــا</label>
                                             <div class="subInfoDisplay">
                                                 <div class="alert alert-info" role="alert">
@@ -432,7 +432,7 @@
                                             </div>
                                         </div>
                                         <div class="answer">
-                                            <input class="hasSubInfo" type="radio" name="qst11" id="qst11op3" value="أنا أتنفس بشكل غير معتــاد">
+                                            <input class="hasSubInfo" type="radio" name="qst11" id="qst11op3" value="أنا أتنفس بشكل غير معتــاد" data-probability="1" data-danger="0">
                                             <label for="qst11op3">أنا أتنفس بشكل غير معتــاد</label>
                                             <div class="subInfoDisplay">
                                                 <div class="alert alert-info" role="alert">
@@ -441,11 +441,11 @@
                                             </div>
                                         </div>
                                         <div class="answer">
-                                            <input type="radio" name="qst11" id="qst11op4" value="أنا أتنفس بشكل عــادي">
+                                            <input type="radio" name="qst11" id="qst11op4" value="أنا أتنفس بشكل عــادي" data-probability="1" data-danger="0">
                                             <label for="qst11op4">أنا أتنفس بشكل عــادي</label>
                                         </div>
                                         <div class="answer">
-                                            <input type="radio" name="qst11" id="qst11op5" value="بالطبع انـا أتنفس جيدا">
+                                            <input type="radio" name="qst11" id="qst11op5" value="بالطبع انـا أتنفس جيدا" data-probability="0" data-danger="0">
                                             <label for="qst11op5">بالطبع انـا أتنفس جيدا</label>
                                         </div>
                                     </div>
@@ -460,7 +460,7 @@
                                     </div>
                                     <div class="quiz-answer subInfo">
                                         <div class="answer">
-                                            <input class="hasSubInfo" type="radio" name="qst12" id="qst12yes" value="نعم، بالضبط بعد ظهور الحمى">
+                                            <input class="hasSubInfo" type="radio" name="qst12" id="qst12yes" value="نعم، بالضبط بعد ظهور الحمى" data-probability="5">
                                             <label for="qst1yes">نعم، بالضبط بعد ظهور الحمى</label>
                                             <div class="subInfoDisplay">
                                                 <div class="alert alert-info" role="alert">
@@ -473,7 +473,7 @@
                                             </div>
                                         </div>
                                         <div class="answer">
-                                            <input type="radio" name="qst12" id="qst12no" value="لا">
+                                            <input type="radio" name="qst12" id="qst12no" value="لا" data-probability="0">
                                             <label for="qst1no">لا</label>
                                         </div>
                                     </div>
@@ -488,7 +488,7 @@
                                     </div>
                                     <div class="quiz-answer subInfo">
                                         <div class="answer">
-                                            <input class="hasSubInfo" type="radio" name="qst13" id="qst13yes" value="نعم، بالضبط بعد ظهور الحمى">
+                                            <input class="hasSubInfo" type="radio" name="qst13" id="qst13yes" value="نعم، بالضبط بعد ظهور الحمى" data-probability="4">
                                             <label for="qst1yes">نعم، بالضبط بعد ظهور الحمى</label>
                                             <div class="subInfoDisplay">
                                                 <div class="alert alert-info" role="alert">
@@ -501,7 +501,7 @@
                                             </div>
                                         </div>
                                         <div class="answer">
-                                            <input type="radio" name="qst13" id="qst13no" value="لا">
+                                            <input type="radio" name="qst13" id="qst13no" value="لا" data-probability="0">
                                             <label for="qst1no">لا</label>
                                         </div>
                                     </div>
@@ -517,35 +517,35 @@
                                     </div>
                                     <div class="quiz-answer subInfo">
                                         <div class="answer">
-                                            <input type="checkbox" name="qst14[]" id="qst14op1" value="آلام في الحلق عند البلع">
+                                            <input type="checkbox" name="qst14[]" id="qst14op1" value="آلام في الحلق عند البلع" data-probability="4">
                                             <label for="qst14op1">آلام في الحلق عند البلع</label>
                                         </div>
                                         <div class="answer">
-                                            <input type="checkbox" name="qst14[]" id="qst14op2" value="تسارع نبضات القلب">
+                                            <input type="checkbox" name="qst14[]" id="qst14op2" value="تسارع نبضات القلب" data-probability="4">
                                             <label for="qst14op2">تسارع نبضات القلب</label>
                                         </div>
                                         <div class="answer">
-                                            <input type="checkbox" name="qst14[]" id="qst14op3" value="غثيان أو تقيء">
+                                            <input type="checkbox" name="qst14[]" id="qst14op3" value="غثيان أو تقيء" data-probability="4">
                                             <label for="qst14op3">غثيان أو تقيء</label>
                                         </div>
                                         <div class="answer">
-                                            <input type="checkbox" name="qst14[]" id="qst14op4" value="إسهال">
+                                            <input type="checkbox" name="qst14[]" id="qst14op4" value="إسهال" data-probability="4">
                                             <label for="qst14op4">إسهال</label>
                                         </div>
                                         <div class="answer">
-                                            <input type="checkbox" name="qst14[]" id="qst14op5" value="آلام في البطن">
+                                            <input type="checkbox" name="qst14[]" id="qst14op5" value="آلام في البطن" data-probability="3">
                                             <label for="qst14op5">آلام في البطن</label>
                                         </div>
                                         <div class="answer">
-                                            <input type="checkbox" name="qst14[]" id="qst14op6" value="فقدان الشهية">
+                                            <input type="checkbox" name="qst14[]" id="qst14op6" value="فقدان الشهية" data-probability="3">
                                             <label for="qst14op6">فقدان الشهية</label>
                                         </div>
                                         <div class="answer">
-                                            <input type="checkbox" name="qst14[]" id="qst14op7" value="تعب شديد">
+                                            <input type="checkbox" name="qst14[]" id="qst14op7" value="تعب شديد" data-probability="4">
                                             <label for="qst14op7">تعب شديد</label>
                                         </div>
                                         <div class="answer">
-                                            <input class="hasSubInfo" type="checkbox" name="qst14[]" id="qst14op8" value="هذيان">
+                                            <input class="hasSubInfo" type="checkbox" name="qst14[]" id="qst14op8" value="هذيان" data-probability="4">
                                             <label for="qst14op8">هذيان</label>
                                             <div class="subInfoDisplay">
                                                 <div class="alert alert-info" role="alert">
@@ -555,7 +555,7 @@
                                             </div>
                                         </div>
                                         <div class="answer">
-                                            <input class="hasSubInfo" type="checkbox" name="qst14[]" id="qst14op9" value="توعك (وعكة صحية)">
+                                            <input class="hasSubInfo" type="checkbox" name="qst14[]" id="qst14op9" value="توعك (وعكة صحية)" data-probability="4">
                                             <label for="qst14op9">توعك (وعكة صحية)</label>
                                             <div class="subInfoDisplay">
                                                 <div class="alert alert-info" role="alert">
@@ -586,45 +586,45 @@
                                             </div>
                                             <div class="quiz-answer">
                                                 <div class="answer">
-                                                    <input type="checkbox" name="qst15yes[]" id="qst15yesopt1" value="مرض الانسداد الرئوي المزمن شديد  يحتاج  إلى الأكسجين يوميا (BPCO)">
+                                                    <input type="checkbox" name="qst15yes[]" id="qst15yesopt1" value="مرض الانسداد الرئوي المزمن شديد  يحتاج  إلى الأكسجين يوميا (BPCO)" data-danger="1">
                                                     <label for="qst15yesopt1">مرض الانسداد الرئوي المزمن شديد يحتاج إلى الأكسجين يوميا (BPCO).</label>
                                                 </div>
                                                 <div class="answer">
-                                                    <input type="checkbox" name="qst15yes[]" id="qst15yesopt2" value=" مرض الانسداد الرئوي المزمن خفيف إلى معتدل (BPCO).">
+                                                    <input type="checkbox" name="qst15yes[]" id="qst15yesopt2" value=" مرض الانسداد الرئوي المزمن خفيف إلى معتدل (BPCO)." data-danger="0.5">
                                                     <label for="qst15yesopt2"> مرض الانسداد الرئوي المزمن خفيف إلى معتدل (BPCO).</label>
                                                 </div>
                                                 <div class="answer">
-                                                    <input type="checkbox" name="qst15yes[]" id="qst15yesopt3" value="الربو">
+                                                    <input type="checkbox" name="qst15yes[]" id="qst15yesopt3" value="الربو" data-danger="0.5">
                                                     <label for="qst15yesopt3">الربو</label>
                                                 </div>
                                                 <div class="answer">
-                                                    <input type="checkbox" name="qst15yes[]" id="qst15yesopt4" value="سرطان الرئة">
+                                                    <input type="checkbox" name="qst15yes[]" id="qst15yesopt4" value="سرطان الرئة" data-danger="0.5">
                                                     <label for="qst15yesopt4">سرطان الرئة</label>
                                                 </div>
                                                 <div class="answer">
-                                                    <input type="checkbox" name="qst15yes[]" id="qst15yesopt5" value="تمدد القصبات الهوائية">
+                                                    <input type="checkbox" name="qst15yes[]" id="qst15yesopt5" value="تمدد القصبات الهوائية" data-danger="0.5">
                                                     <label for="qst15yesopt5">تمدد القصبات الهوائية</label>
                                                 </div>
                                                 <div class="answer">
-                                                    <input type="checkbox" name="qst15yes[]" id="qst15yesopt6" value="تَليّف رئوي (fibrose)">
+                                                    <input type="checkbox" name="qst15yes[]" id="qst15yesopt6" value="تَليّف رئوي (fibrose)" data-danger="0.5">
                                                     <label for="qst15yesopt6">تَليّف رئوي (fibrose)</label>
                                                 </div>
                                                 <div class="answer">
-                                                    <input type="checkbox" name="qst15yes[]" id="qst15yesopt7" value="مرض الساركويد (sarcoïdose)">
+                                                    <input type="checkbox" name="qst15yes[]" id="qst15yesopt7" value="مرض الساركويد (sarcoïdose)" data-danger="0.5">
                                                     <label for="qst15yesopt7">مرض الساركويد (sarcoïdose)</label>
                                                 </div>
                                                 <div class="answer">
-                                                    <input type="checkbox" name="qst15yes[]" id="qst15yesopt8" value="زرع الرئة">
+                                                    <input type="checkbox" name="qst15yes[]" id="qst15yesopt8" value="زرع الرئة" data-danger="1">
                                                     <label for="qst15yesopt8">زرع الرئة</label>
                                                 </div>
                                                 <div class="answer">
-                                                    <input type="checkbox" name="qst15yes[]" id="qst15yesopt9" value=" التَليّف الكيسي الرئوي (mucoviscidose)">
+                                                    <input type="checkbox" name="qst15yes[]" id="qst15yesopt9" value=" التَليّف الكيسي الرئوي (mucoviscidose)" data-danger="0.5">
                                                     <label for="qst15yesopt9"> التَليّف الكيسي الرئوي (mucoviscidose)</label>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="answer">
-                                            <input class="no" type="radio" name="qst15" id="qst15no" value="لا">
+                                            <input class="no" type="radio" name="qst15" id="qst15no" value="لا" data-danger="0">
                                             <label for="qst15no">لا</label>
                                         </div>
                                     </div>
@@ -639,7 +639,7 @@
                                     </div>
                                     <div class="quiz-answer subInfo">
                                         <div class="answer">
-                                            <input class="hasSubInfo" type="radio" name="qst16" id="qst16yes" value="نعم">
+                                            <input class="hasSubInfo" type="radio" name="qst16" id="qst16yes" value="نعم" data-danger="1">
                                             <label for="qst1yes">نعم</label>
                                             <div class="subInfoDisplay">
                                                 <div class="alert alert-info" role="alert">
@@ -649,7 +649,7 @@
                                             </div>
                                         </div>
                                         <div class="answer">
-                                            <input type="radio" name="qst16" id="qst16no" value="لا">
+                                            <input type="radio" name="qst16" id="qst16no" value="لا" data-danger="0">
                                             <label for="qst1no">لا</label>
                                         </div>
                                     </div>
@@ -674,15 +674,15 @@
                                             </div>
                                             <div class="quiz-answer subInfo">
                                                 <div class="answer">
-                                                    <input type="checkbox" name="qst17yes[]" id="qst17yesopt1" value="فشل القلب احتشاء عضلة القلب (IDM) ">
+                                                    <input type="checkbox" name="qst17yes[]" id="qst17yesopt1" value="فشل القلب احتشاء عضلة القلب (IDM) " data-danger="1">
                                                     <label for="qst17yesopt1">فشل القلب احتشاء عضلة القلب (IDM) </label>
                                                 </div>
                                                 <div class="answer">
-                                                    <input type="checkbox" name="qst17yes[]" id="qst17yesopt2" value="قصور كلوي يحتاج إلى تصفية">
+                                                    <input type="checkbox" name="qst17yes[]" id="qst17yesopt2" value="قصور كلوي يحتاج إلى تصفية" data-danger="0.5">
                                                     <label for="qst17yesopt2">قصور كلوي يحتاج إلى تصفية</label>
                                                 </div>
                                                 <div class="answer">
-                                                    <input class="hasSubInfo" type="checkbox" name="qst17yes[]" id="qst17yesopt3" value="مرض السكري">
+                                                    <input class="hasSubInfo" type="checkbox" name="qst17yes[]" id="qst17yesopt3" value="مرض السكري" data-danger="0.5">
                                                     <label for="qst17yesopt3">مرض السكري</label>
                                                     <div class="subInfoDisplay">
                                                         <div class="alert alert-info" role="alert">
@@ -692,7 +692,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="answer">
-                                                    <input class="hasSubInfo" type="checkbox" name="qst17yes[]" id="qst17yesopt4" value="إرتفاع ضغط الدم">
+                                                    <input class="hasSubInfo" type="checkbox" name="qst17yes[]" id="qst17yesopt4" value="إرتفاع ضغط الدم" data-danger="0.5">
                                                     <label for="qst17yesopt4">إرتفاع ضغط الدم</label>
                                                     <div class="subInfoDisplay">
                                                         <div class="alert alert-info" role="alert">
@@ -703,11 +703,11 @@
                                                     </div>
                                                 </div>
                                                 <div class="answer">
-                                                    <input type="checkbox" name="qst17yes[]" id="qst17yesopt5" value="سرطان (يعالج بالكيماوي أو بالأشعة)">
+                                                    <input type="checkbox" name="qst17yes[]" id="qst17yesopt5" value="سرطان (يعالج بالكيماوي أو بالأشعة)" data-danger="0.5">
                                                     <label for="qst17yesopt5">سرطان (يعالج بالكيماوي أو بالأشعة)</label>
                                                 </div>
                                                 <div class="answer">
-                                                    <input class="hasSubInfo" type="checkbox" name="qst17yes[]" id="qst17yesopt6" value="مرض في الكبد (التهاب أو تلف الخلايا)">
+                                                    <input class="hasSubInfo" type="checkbox" name="qst17yes[]" id="qst17yesopt6" value="مرض في الكبد (التهاب أو تلف الخلايا)" data-danger="0.5">
                                                     <label for="qst17yesopt6">مرض في الكبد (التهاب أو تلف الخلايا)</label>
                                                     <div class="subInfoDisplay">
                                                         <div class="alert alert-info" role="alert">لقد أشرت لوجود مرض في الكبد.
@@ -716,25 +716,25 @@
                                                     </div>
                                                 </div>
                                                 <div class="answer">
-                                                    <input type="checkbox" name="qst17yes[]" id="qst17yesopt7" value="مرض نقص المناعة المكتسب (غير متحكم فيه = عدد خلايا CD4 أقل من 200)">
+                                                    <input type="checkbox" name="qst17yes[]" id="qst17yesopt7" value="مرض نقص المناعة المكتسب (غير متحكم فيه = عدد خلايا CD4 أقل من 200)" data-danger="0.5">
                                                     <label for="qst17yesopt7">مرض نقص المناعة المكتسب (غير متحكم فيه = عدد خلايا CD4 أقل من 200)</label>
                                                 </div>
                                                 <div class="answer">
-                                                    <input type="checkbox" name="qst17yes[]" id="qst17yesopt8" value="زرع الأعضاء ">
+                                                    <input type="checkbox" name="qst17yes[]" id="qst17yesopt8" value="زرع الأعضاء " data-danger="0.5">
                                                     <label for="qst17yesopt8">زرع الأعضاء </label>
                                                 </div>
                                                 <div class="answer">
-                                                    <input type="checkbox" name="qst17yes[]" id="qst17yesopt9" value="سمنة حادة (مؤشر كتلة الجسم يفوق 40 كغ/م2)">
+                                                    <input type="checkbox" name="qst17yes[]" id="qst17yesopt9" value="سمنة حادة (مؤشر كتلة الجسم يفوق 40 كغ/م2)" data-danger="0.5">
                                                     <label for="qst17yesopt9">سمنة حادة (مؤشر كتلة الجسم يفوق 40 كغ/م2)</label>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="answer">
-                                            <input class="no" type="radio" name="qst17" id="qst17no" value="لا">
+                                            <input class="no" type="radio" name="qst17" id="qst17no" value="لا" data-danger="0">
                                             <label for="qst17no">لا</label>
                                         </div>
                                         <div class="answer">
-                                            <input class="no" type="radio" name="qst17" id="qst17idk" value="لا أدري">
+                                            <input class="no" type="radio" name="qst17" id="qst17idk" value="لا أدري" data-danger="0">
                                             <label for="qst17idk">لا أدري</label>
                                         </div>
                                     </div>
@@ -749,11 +749,11 @@
                                     </div>
                                     <div class="quiz-answer">
                                         <div class="answer">
-                                            <input type="radio" name="qst18" id="qst18yes" value="نعم">
+                                            <input type="radio" name="qst18" id="qst18yes" value="نعم" data-danger="0.5">
                                             <label for="qst18yes">نعم</label>
                                         </div>
                                         <div class="answer">
-                                            <input type="radio" name="qst18" id="qst18no" value="لا">
+                                            <input type="radio" name="qst18" id="qst18no" value="لا" data-danger="0">
                                             <label for="qst18no">لا</label>
                                         </div>
                                     </div>
@@ -784,17 +784,17 @@
                                                     <p class="lead">منذ متى؟</p>
                                                 </div>
                                                 <div class="answer">
-                                                    <input type="radio" name="qst19yes" id="qst19yesopt1" value="أقل من 3 أيــام">
+                                                    <input type="radio" name="qst19yes" id="qst19yesopt1" value="أقل من 3 أيــام" data-probability="-1">
                                                     <label for="qst19yesopt1">أقل من 3 أيــام</label>
                                                 </div>
                                                 <div class="answer">
-                                                    <input class="hasSubInfo" type="radio" name="qst19yes" id="qst19yesopt2" value="أكثر من 3 أيــام">
+                                                    <input class="hasSubInfo" type="radio" name="qst19yes" id="qst19yesopt2" value="أكثر من 3 أيــام" data-probability="-2">
                                                     <label for="qst19yesopt2">أكثر من 3 أيــام</label>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="answer">
-                                            <input class="no" type="radio" name="qst19" id="qst19no" value="لا">
+                                            <input class="no" type="radio" name="qst19" id="qst19no" value="لا" data-probability="0">
                                             <label for="qst19no">لا</label>
                                         </div>
                                     </div>
@@ -809,7 +809,7 @@
                                     </div>
                                     <div class="quiz-answer subInfo">
                                         <div class="answer">
-                                            <input class="hasSubInfo" type="radio" name="qst20" id="qst20yes" value="نعم">
+                                            <input class="hasSubInfo" type="radio" name="qst20" id="qst20yes" value="نعم" data-danger="2">
                                             <label for="qst1yes">نعم</label>
                                             <div class="subInfoDisplay">
                                                 <div class="alert alert-info" role="alert">
@@ -819,7 +819,7 @@
                                             </div>
                                         </div>
                                         <div class="answer">
-                                            <input type="radio" name="qst20" id="qst20no" value="لا">
+                                            <input type="radio" name="qst20" id="qst20no" value="لا" data-danger="0">
                                             <label for="qst1no">لا</label>
                                         </div>
                                     </div>
@@ -834,7 +834,7 @@
                                     </div>
                                     <div class="quiz-answer subInfo">
                                         <div class="answer">
-                                            <input class="hasSubInfo" type="radio" name="qst21" id="qst21yes" value="نعم">
+                                            <input class="hasSubInfo" type="radio" name="qst21" id="qst21yes" value="نعم" data-danger="2">
                                             <label for="qst1yes">نعم</label>
                                             <div class="subInfoDisplay">
                                                 <div class="alert alert-info" role="alert">
@@ -844,7 +844,7 @@
                                             </div>
                                         </div>
                                         <div class="answer">
-                                            <input type="radio" name="qst21" id="qst21no" value="لا">
+                                            <input type="radio" name="qst21" id="qst21no" value="لا" data-danger="0">
                                             <label for="qst1no">لا</label>
                                         </div>
                                     </div>
@@ -859,7 +859,7 @@
                                     </div>
                                     <div class="quiz-answer subInfo">
                                         <div class="answer">
-                                            <input class="hasSubInfo" type="radio" name="qst22" id="qst22yes" value="نعم">
+                                            <input class="hasSubInfo" type="radio" name="qst22" id="qst22yes" value="نعم" data-probability="1">
                                             <label for="qst1yes">نعم</label>
                                             <div class="subInfoDisplay">
                                                 <div class="alert alert-info" role="alert">
@@ -868,7 +868,7 @@
                                             </div>
                                         </div>
                                         <div class="answer">
-                                            <input type="radio" name="qst22" id="qst22no" value="لا">
+                                            <input type="radio" name="qst22" id="qst22no" value="لا" data-probability="0">
                                             <label for="qst1no">لا</label>
                                         </div>
                                     </div>
@@ -883,11 +883,11 @@
                                     </div>
                                     <div class="quiz-answer">
                                         <div class="answer">
-                                            <input type="radio" name="qst23" id="qst23yes" value="نعم">
+                                            <input type="radio" name="qst23" id="qst23yes" value="نعم" data-probability="1">
                                             <label for="qst1yes">نعم</label>
                                         </div>
                                         <div class="answer">
-                                            <input type="radio" name="qst23" id="qst23no" value="لا">
+                                            <input type="radio" name="qst23" id="qst23no" value="لا" data-probability="0">
                                             <label for="qst1no">لا</label>
                                         </div>
                                     </div>
@@ -903,15 +903,15 @@
                                     </div>
                                     <div class="quiz-answer subInfo">
                                         <div class="answer">
-                                            <input type="radio" name="qst24" id="qst24op1" value="أقل من 20">
+                                            <input type="radio" name="qst24" id="qst24op1" value="أقل من 20" data-danger="0">
                                             <label for="qst24op1">أقل من 20</label>
                                         </div>
                                         <div class="answer">
-                                            <input type="radio" name="qst24" id="qst24op2" value="بين 20 و 22">
+                                            <input type="radio" name="qst24" id="qst24op2" value="بين 20 و 22" data-danger="0.5">
                                             <label for="qst24op2">بين 20 و 22</label>
                                         </div>
                                         <div class="answer">
-                                            <input class="hasSubInfo" type="radio" name="qst24" id="qst24op3" value="أكثر من 22">
+                                            <input class="hasSubInfo" type="radio" name="qst24" id="qst24op3" value="أكثر من 22" data-danger="1">
                                             <label for="qst24op3">أكثر من 22</label>
                                             <div class="subInfoDisplay">
                                                 <div class="alert alert-info" role="alert">
@@ -935,15 +935,15 @@
                                     </div>
                                     <div class="quiz-answer subInfo">
                                         <div class="answer">
-                                            <input type="radio" name="qst25" id="qst25op1" value="بين 100 و 95 %">
+                                            <input type="radio" name="qst25" id="qst25op1" value="بين 100 و 95 %" data-danger="0">
                                             <label for="qst25op1">بين 100 و 95 %</label>
                                         </div>
                                         <div class="answer">
-                                            <input type="radio" name="qst25" id="qst25op2" value="بين 94 و 90 %">
+                                            <input type="radio" name="qst25" id="qst25op2" value="بين 94 و 90 %" data-danger="0.5">
                                             <label for="qst25op2">بين 94 و 90 %</label>
                                         </div>
                                         <div class="answer">
-                                            <input class="hasSubInfo" type="radio" name="qst25" id="qst25op3" value="أقل من 90 %">
+                                            <input class="hasSubInfo" type="radio" name="qst25" id="qst25op3" value="أقل من 90 %" data-danger="2">
                                             <label for="qst25op3">أقل من 90 %</label>
                                             <div class="subInfoDisplay">
                                                 <div class="alert alert-info" role="alert">
@@ -965,7 +965,7 @@
                                     </div>
                                     <div class="quiz-answer subInfo">
                                         <div class="answer">
-                                            <input class="hasSubInfo" type="radio" name="qst26" id="qst26op1" value="أقل من 80">
+                                            <input class="hasSubInfo" type="radio" name="qst26" id="qst26op1" value="أقل من 80" data-danger="2">
                                             <label for="qst26op1">أقل من 80</label>
                                             <div class="subInfoDisplay">
                                                 <div class="alert alert-info" role="alert">
@@ -974,7 +974,7 @@
                                             </div>
                                         </div>
                                         <div class="answer">
-                                            <input class="hasSubInfo" type="radio" name="qst26" id="qst26op2" value="بين 80 و 90">
+                                            <input class="hasSubInfo" type="radio" name="qst26" id="qst26op2" value="بين 80 و 90" data-danger="1">
                                             <label for="qst26op2">بين 80 و 90</label>
                                             <div class="subInfoDisplay">
                                                 <div class="alert alert-info" role="alert">
@@ -983,11 +983,11 @@
                                             </div>
                                         </div>
                                         <div class="answer">
-                                            <input type="radio" name="qst26" id="qst26op3" value="بين 91 و 100">
+                                            <input type="radio" name="qst26" id="qst26op3" value="بين 91 و 100" data-danger="0.5">
                                             <label for="qst26op3">بين 91 و 100</label>
                                         </div>
                                         <div class="answer">
-                                            <input type="radio" name="qst26" id="qst26op4" value="أكثر من 101">
+                                            <input type="radio" name="qst26" id="qst26op4" value="أكثر من 101" data-danger="0">
                                             <label for="qst26op4">أكثر من 101</label>
                                         </div>
                                     </div>
