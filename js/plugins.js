@@ -4,7 +4,7 @@ $(document).ready(function () {
       direction = e.direction,
       quizNumberInt = parseInt(quizNumber.text());
     if (direction == "left") {
-      if (quizNumberInt < 26) {
+      if (quizNumberInt < 27) {
         quizNumber.text(quizNumberInt + 1);
       }
     } else if (direction == "right") {
@@ -75,9 +75,55 @@ $(document).ready(function () {
       dangerSum = dangerSum + selectedInputDangerMark;
     }
 
-    $("#probability-display > span").text(probabilitySum);
-    $("#danger-display > span").text(dangerSum);
-    $("#result-display").show();
+    let probMark = (probabilitySum * 100) / 94;
+    let probMarkDisplay = $("#probability-display");
+
+    probMarkDisplay.show();
+    if (probMark <= 25) {
+      probMarkDisplay
+        .children("p")
+        .html(
+          "<span>إحتمال إصابتك بالفيروس ضعيف.</span><br>لا تنسى أن الإستبيان مجرد افتراض لاحتمال إصابتك، ولا يغنيك عن الاستشارة الطبية إذا استدعت حالتك ذلك."
+        );
+      probMarkDisplay.addClass("alert-info");
+    } else if ((probMark > 25) & (probMark <= 75)) {
+      probMarkDisplay
+        .children("p")
+        .html(
+          "<span>إحتمال إصابتك بالفيروس متوسط.</span><br>عليك باستشارة طبيب او الإتصال بالجهات المعني على الرقم الأخضر <u>3030</u> "
+        );
+      probMarkDisplay.addClass("alert-warning");
+    } else {
+      probMarkDisplay
+        .children("p")
+        .html(
+          "<span>إحتمال إصابتك بالفيروس مرتفع.</span><br> عليك بالاتصال فورا بالاستعجالات أو على الرقم <u>3030.</u>"
+        );
+      probMarkDisplay.addClass("alert-danger");
+    }
+
+    let dangerMark = (dangerSum * 100) / 30;
+    alert("prob: " + probMark + "%\nDanger: " + dangerMark + "%");
+    let dangerMarkDisplay = $("#danger-display");
+    if (probMark > 25) {
+      dangerMarkDisplay.show();
+      if (dangerMark <= 25) {
+        dangerMarkDisplay.children("p").html("حالتك مستقرة");
+        dangerMarkDisplay.addClass("alert-info");
+      } else if ((probMark > 25) & (probMark <= 75)) {
+        dangerMarkDisplay
+          .children("p")
+          .html("حالتك خطيرة نوعا ما  عليك باستشارة طبيب عاجلا.");
+        dangerMarkDisplay.addClass("alert-warning");
+      } else {
+        dangerMarkDisplay
+          .children("p")
+          .html("حالتك جد خطيرة عليك بالاتصال فورا بالاستعجالات.");
+        dangerMarkDisplay.addClass("alert-danger");
+      }
+    } else {
+      dangerMarkDisplay.hide();
+    }
   });
 
   // Reset the quiz

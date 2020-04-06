@@ -212,16 +212,17 @@ body * {
   width: 100%;
   margin-bottom: 10px;
 }
-.lastItem #result-display {
+.lastItem #result-display .alert {
+  margin-bottom: 20px;
+  font-size: 28px;
   display: none;
 }
-.lastItem #result-display .alert {
-  margin-bottom: 0px;
-  font-size: 28px;
-}
-.lastItem #result-display .alert span {
-  font-weight: bold;
+.lastItem #result-display .alert p {
   font-size: 20px;
+}
+.lastItem #result-display .alert p span {
+  font-weight: bold;
+  font-size: 28px;
 }
 /* Footer start */
 
