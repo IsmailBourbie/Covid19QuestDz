@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 
 <head>
     <meta charset="UTF-8">
@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
-    <title>Document</title>
+    <title>استبيان كوفيد19</title>
 </head>
 
 <body>
@@ -19,7 +19,7 @@
                 <div class="col-sm-6 col-xs-4">
                     <div class="navbar-header">
                         <a class="navbar-brand" href="#">
-                            COVID19DZ
+                            إستبيان كوفيد19
                         </a>
                     </div>
                 </div>
@@ -63,8 +63,8 @@
                 </div>
             </div>
             <div class="section">
-                <p class="lead">تسمح أجوبتك على الاستبيان بالحصول على نموذج يمكن إرساله إلى طبيبك أو إلى المصالح المختصة لطلب موعد.
-                    يقدم لك هذا الاستبيان أيضًا معلومات خاصة بحالتك حيث يمكن إكمال القيام بتقييم ذاتي بواسطة الشخص المريض نفسه أو مقدم الرعاية( خاصة بالنسبة لكبار السن أو الأشخاص المتعبين جدًا ) .
+                <p class="lead">تسمح أجوبتك على الاستبيان بالحصول على إحتمـالات إصابتك بفيروس كوفيد 19.
+                    يقدم لك هذا الاستبيان أيضا معلومات خاصة بحالتك حيث يمكن إكمال القيام بتقييم ذاتي بواسطة الشخص المريض نفسه أو مقدم الرعاية( خاصة بالنسبة لكبار السن أو الأشخاص المتعبين جدًا ) .
                     لا يهدف هذا الاستبيان إلى استبدال المشورة الطبية ، فهو مصمم لتسهيل الحوار مع الطبيب فقط .
                     ملاحظة: هذا الاستبيان غير مناسب للأطفال.</p>
             </div>
@@ -899,20 +899,20 @@
                                     </div>
                                     <div class="quiz-question">
                                         <p class="lead">مــا معدل تنفسك؟</p>
-                                        <p class="tips">يمكنك حساب ذلك بتصفح موقع <a href="http://www.automesure.com/">automesure.com</a></p>
+                                        <p class="tips">يمكنك حساب ذلك بحسـاب عدد دورات التنفس في الدقيقة الواحدة (شهيق و زفير)
                                     </div>
                                     <div class="quiz-answer subInfo">
                                         <div class="answer">
-                                            <input type="radio" name="qst24" id="qst24op1" value="أقل من 20" data-danger="0">
-                                            <label for="qst24op1">أقل من 20</label>
+                                            <input type="radio" name="qst24" id="qst24op1" value="أقل من 20 دورة/د" data-danger="0">
+                                            <label for="qst24op1">أقل من 20 دورة/د</label>
                                         </div>
                                         <div class="answer">
-                                            <input type="radio" name="qst24" id="qst24op2" value="بين 20 و 22" data-danger="0.5">
-                                            <label for="qst24op2">بين 20 و 22</label>
+                                            <input type="radio" name="qst24" id="qst24op2" value="بين 20 و 22  دورة/د" data-danger="0.5">
+                                            <label for="qst24op2">بين 20 و 22 دورة/د</label>
                                         </div>
                                         <div class="answer">
-                                            <input class="hasSubInfo" type="radio" name="qst24" id="qst24op3" value="أكثر من 22" data-danger="1">
-                                            <label for="qst24op3">أكثر من 22</label>
+                                            <input class="hasSubInfo" type="radio" name="qst24" id="qst24op3" value="أكثر من 22 دورة/د" data-danger="1">
+                                            <label for="qst24op3">أكثر من 22 دورة/د</label>
                                             <div class="subInfoDisplay">
                                                 <div class="alert alert-info" role="alert">
                                                     لقد أشرت أن معدل التنفس يفوق 22، يجب استشارة الطبيب عاجلا!.
@@ -920,6 +920,10 @@
                                                 لدقة أكبر يمكنك كتابة معدل التنفس هنا : (عدد الأنفاس في الدقيقة)<br>
                                                 <input type="text" name="qst24op3sub">
                                             </div>
+                                        </div>
+                                        <div class="answer">
+                                            <input type="radio" name="qst24" id="qst24op4" value="لا أدري" data-danger="0">
+                                            <label for="qst24op4">لا أدري</label>
                                         </div>
                                     </div>
                                 </div>
@@ -1008,10 +1012,10 @@
                                         </div>
                                     </div>
                                     <div id="result-display">
-                                        <div id="probability-display" class="alert" role="alert">
+                                        <div id="probability-display" class="alert text-center" role="alert">
                                             <p></p>
                                         </div>
-                                        <div id="danger-display" class="alert" role="alert">
+                                        <div id="danger-display" class="alert text-center" role="alert">
                                             درجة الخطورة:
                                             <p>
                                             </p>
@@ -1058,7 +1062,7 @@
 
                         </div>
                         <div class="col-md-4 col-xs-7 sante-gov">
-                            <a href="#">SANTE-GOV</a>
+                            <a href="#" title="وزارة الصحة والسكـان وإصلاح المستشفيـات">SANTE-GOV</a>
                         </div>
                     </div>
                 </div>
