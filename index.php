@@ -24,7 +24,7 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-xs-8">
-                    <p>بالشراكة مع الأطباء ومهندسي الإعلام الآلي</p>
+                    <p>بالشراكة مع أطباء ومهندسي الإعلام الآلي</p>
                 </div>
             </div>
         </div>
@@ -74,7 +74,7 @@
             </div>
 
             <div class="main-footer">
-                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#quizModal">أبدأ الأسئلة</button>
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#quizModal">أبدأ الإستبيـان</button>
             </div>
         </div>
     </div>
@@ -87,12 +87,12 @@
                     <h4 class="modal-title">إستبيــان خاص بكورونا فيروس</h4>
                 </div>
                 <div class="modal-body">
-                    <form action="test.php" method="post">
+                    <form action="/">
                         <div id="quizSlider" class="carousel slide" data-ride="carousel" data-wrap="false" data-interval="false">
                             <!-- Wrapper for slides -->
                             <div class="carousel-inner" role="listbox">
                                 <!-- QST1 -->
-                                <div class="item active">
+                                <div class="item">
                                     <div class="quiz-title text-center">
                                         <h3>معلومـــات شخصية</h3>
                                     </div>
@@ -132,16 +132,16 @@
                                         <h3>معلومـــات شخصية</h3>
                                     </div>
                                     <div class="quiz-question">
-                                        <p class="lead">هل تعيش مع العــائلة الكبيرة أو المصغرة؟</p>
+                                        <p class="lead">هل تعيش مع العــائلة أم في مؤسسة؟</p>
                                     </div>
                                     <div class="quiz-answer">
                                         <div class="answer">
                                             <input type="radio" name="qst2" id="qst2yes" value="نعم" data-probability="2">
-                                            <label for="qst2yes">نعم</label>
+                                            <label for="qst2yes">نعم، مع العـائلة</label>
                                         </div>
                                         <div class="answer">
                                             <input type="radio" name="qst2" id="qst2no" value="لا" data-probability="1">
-                                            <label for="qst2no">لا</label>
+                                            <label for="qst2no">لا، في مؤسسة</label>
                                         </div>
                                     </div>
                                 </div>
@@ -384,15 +384,15 @@
                                             </div>
                                             <div class="quiz-answer">
                                                 <div class="answer">
-                                                    <input type="radio" name="qst10yes" id="qst10yesopt1" value="الصدر" data-probability="4">
+                                                    <input type="checkbox" name="qst10yes" id="qst10yesopt1" value="الصدر" data-probability="4">
                                                     <label for="qst10yesopt1">الصدر</label>
                                                 </div>
                                                 <div class="answer">
-                                                    <input type="radio" name="qst10yes" id="qst10yesopt2" value="الرأس" data-probability="3">
+                                                    <input type="checkbox" name="qst10yes" id="qst10yesopt2" value="الرأس" data-probability="3">
                                                     <label for="qst10yesopt2">الرأس</label>
                                                 </div>
                                                 <div class="answer">
-                                                    <input type="radio" name="qst10yes" id="qst10yesopt3" value="عضلات الجسم" data-probability="4">
+                                                    <input type="checkbox" name="qst10yes" id="qst10yesopt3" value="عضلات الجسم" data-probability="4">
                                                     <label for="qst10yesopt3">عضلات الجسم</label>
                                                 </div>
                                             </div>
@@ -418,7 +418,7 @@
                                             <label for="qst11op1">نعم انا جد متضــايق</label>
                                             <div class="subInfoDisplay">
                                                 <div class="alert alert-info" role="alert">
-                                                    لقد اشرت أنك جد متضــايق! ولهذا حـالتك تبدو خطيرة، عليك الاتصــال بالإسعـاف <u>3010</u>
+                                                    لقد اشرت أنك جد متضــايق! ولهذا حـالتك تبدو خطيرة، عليك الاتصــال بالإسعـاف <u>3030</u>
                                                 </div>
                                             </div>
                                         </div>
@@ -550,7 +550,7 @@
                                             <div class="subInfoDisplay">
                                                 <div class="alert alert-info" role="alert">
                                                     لقد أشرت بأنك في حالة هذيان، ولهذا فانت تحتاج إلى استشارة طبية عاجلة.
-                                                    إتصل بالرقم <u>3010</u>
+                                                    إتصل بالرقم <u>3030</u>
                                                 </div>
                                             </div>
                                         </div>
@@ -560,7 +560,7 @@
                                             <div class="subInfoDisplay">
                                                 <div class="alert alert-info" role="alert">
                                                     لقد أشرت إلى وجود وعكة صحية، ولهذا فانت تحتاج إلى استشارة طبية عاجلة.
-                                                    إتصل بالرقم <u>3010</u>
+                                                    إتصل بالرقم <u>3030</u>
                                                 </div>
                                             </div>
                                         </div>
@@ -839,7 +839,7 @@
                                             <div class="subInfoDisplay">
                                                 <div class="alert alert-info" role="alert">
                                                     إن استعمال دواء الكورتيزون للضرورة يحتاج إلى مراقبة طبية مستمرة.
-                                                    إن أدوية الكورتيكويد أو تلك التي تنقص المناعة والمستعملة لعلاج امراض مزمنة، لا يمكن إيقافها في انتظار استشارة الطبيب الخاص.
+                                                    إن أدوية الكورتيكويد أو تلك التي تنقص المناعة والمستعملة لعلاج امراض مزمنة، لا يمكن إيقافها إلا بعد استشارة الطبيب المختص.
                                                 </div>
                                             </div>
                                         </div>
@@ -954,7 +954,7 @@
                                     </div>
                                 </div>
                                 <!-- QST26 -->
-                                <div class="item">
+                                <div class="item active">
                                     <div class="quiz-title text-center">
                                         <h3>قياساتك؟</h3>
                                     </div>
