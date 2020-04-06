@@ -103,7 +103,6 @@ $(document).ready(function () {
     }
 
     let dangerMark = (dangerSum * 100) / 30;
-    alert("prob: " + probMark + "%\nDanger: " + dangerMark + "%");
     let dangerMarkDisplay = $("#danger-display");
     if (probMark > 25) {
       dangerMarkDisplay.show();

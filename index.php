@@ -3,6 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="إستبيـان كوفيد19">
+    <meta name="keywords" content="covid19,corona,virus,كوفيد,كورونا">
+    <meta name="author" content="John Doe">
     <link href="https://fonts.googleapis.com/css2?family=Tajawal&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -954,6 +958,10 @@
                                                     لقد أشرت إلى أن نسبة الاكسجين أقل من 90 % و هذه نسبة ضعيفة نوعا ما، عليك باستشارة الطبيب عاجلا!
                                                 </div>
                                             </div>
+                                        </div>
+                                        <div class="answer">
+                                            <input type="radio" name="qst25" id="qst25op4" value="لا أدري" data-danger="0">
+                                            <label for="qst25op4">لا أدري</label>
                                         </div>
                                     </div>
                                 </div>
