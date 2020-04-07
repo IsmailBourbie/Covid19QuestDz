@@ -3,6 +3,23 @@
 
 <head>
     <meta charset="UTF-8">
+
+    <meta charset="UTF-8">
+    <meta name="description" content="إستبيـان كوفيد19">
+    <meta property="og:url" content="https://covid19test.github.io">
+    <meta property="og:site_name" content="إستبيـان كوفيد19">
+    <meta property="og:title" content="إستبيـان كوفيد19">
+    <meta property="og:description" content="إستبيـان كوفيد19">
+    <meta property="og:image" content="https://raw.githubusercontent.com/covid19test/covid19test.github.io/master/images/corona.jpg">
+    <meta property="og:image:type" content="image/jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+
+    <meta property="twitter:site" content="https://covid19test.github.io">
+    <meta property="twitter:creator" content="إستبيـان كوفيد19">
+    <meta property="twitter:title" content="إستبيـان كوفيد19">
+    <meta property="twitter:description" content="إستبيـان كوفيد19">
+
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="description" content="إستبيـان كوفيد19">
     <meta name="keywords" content="covid19,corona,virus,كوفيد,كورونا">

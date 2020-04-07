@@ -90,7 +90,7 @@ $(document).ready(function () {
       probMarkDisplay
         .children("p")
         .html(
-          "<span>إحتمال إصابتك بالفيروس متوسط.</span><br>عليك باستشارة طبيب او الإتصال بالجهات المعني على الرقم الأخضر <u>3030</u> "
+          "<span>إحتمال إصابتك بالفيروس متوسط.</span><br>عليك باستشارة طبيب او الإتصال بالجهات المعنية على الرقم الأخضر <u>3030</u> "
         );
       probMarkDisplay.addClass("alert-warning");
     } else {
@@ -129,7 +129,9 @@ $(document).ready(function () {
 
   $("#reset-quiz-btn").click(function () {
     $("#quizSlider").carousel(0);
-    $("#quizNumber").text(0);
+    $("#quizNumber").text(1);
+    $("#probability-display").hide();
+    $("#danger-display").hide();
   });
 
   // reset on modal hide
