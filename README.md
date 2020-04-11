@@ -48,3 +48,14 @@ git clone https://github.com/IsmailBourbie/Covid19QuestDz.git
 2. Open **index.html** file with a browser
 
    > You can see the app on this site: [covid19test-dz.com](https://covid19test-dz.com/)
+
+## Contributing
+
+If you want to contribute to this project and make it better with new ideas, your pull request is very welcomed. If you find any issue just put it in the repository issue section, thank you.
+
+## Contact
+
+- [Linkedin](https://www.linkedin.com/in/ismail-bourbie)
+- [Facebook](https://www.facebook.com/ismail.bourbie)
+- [Instagram](https://www.instagram.com/ismail_bourbie)
+- [Twitter](https://twitter.com/Ismail_bourbie)
