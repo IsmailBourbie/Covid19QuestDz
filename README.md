@@ -14,3 +14,7 @@ Simple web app for checking if someone has coronavirus symptoms and gives him/he
 - jQuery v1.12.1
 - Bootstrap v3
 - Font-awesome
+
+## Requirements
+
+You'll need just a browser (Chrome, Firefox...)
