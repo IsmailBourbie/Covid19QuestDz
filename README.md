@@ -24,3 +24,15 @@ You'll need just a browser (Chrome, Firefox...)
 ### Home page
 
 ![Home page](screenshots/home.png)
+
+### Question example
+
+![Question example](screenshots/question.png)
+
+### Guides example
+
+![Guides example](screenshots/guides.png)
+
+### Result example
+
+![Result example](screenshots/result.png)
