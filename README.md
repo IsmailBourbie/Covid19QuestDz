@@ -46,3 +46,5 @@ git clone https://github.com/IsmailBourbie/Covid19QuestDz.git
 ```
 
 2. Open **index.html** file with a browser
+
+   > You can see the app on this site: [covid19test-dz.com](https://covid19test-dz.com/)
