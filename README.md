@@ -36,3 +36,13 @@ You'll need just a browser (Chrome, Firefox...)
 ### Result example
 
 ![Result example](screenshots/result.png)
+
+## Installation
+
+1. Download the repository files (project) from the download section or clone this project by typing in the bash the following command:
+
+```
+git clone https://github.com/IsmailBourbie/Covid19QuestDz.git
+```
+
+2. Open **index.html** file with a browser
