@@ -18,3 +18,9 @@ Simple web app for checking if someone has coronavirus symptoms and gives him/he
 ## Requirements
 
 You'll need just a browser (Chrome, Firefox...)
+
+## Screenshots
+
+### Home page
+
+![Home page](screenshots/home.png)
