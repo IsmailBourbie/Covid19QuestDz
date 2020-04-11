@@ -4,7 +4,7 @@ $(document).ready(function () {
       direction = e.direction,
       quizNumberInt = parseInt(quizNumber.text());
     if (direction == "left") {
-      if (quizNumberInt < 27) {
+      if (quizNumberInt < 28) {
         quizNumber.text(quizNumberInt + 1);
       }
     } else if (direction == "right") {
@@ -12,6 +12,7 @@ $(document).ready(function () {
         quizNumber.text(quizNumberInt - 1);
       }
     }
+    $("#errors-display").hide();
   });
 
   // disabled button if the last item
@@ -30,6 +31,25 @@ $(document).ready(function () {
     } else {
       $(this).parent().siblings(".subshow").addClass("hide");
     }
+  });
+
+  // if idk checkbox clicked
+  $(".idk-checkbox input").click(function () {
+    if ($(this).hasClass("idk-input") & $(this).is(":checked")) {
+      $(this).parent().siblings().children("input").prop("checked", false);
+      $(this).parent().siblings().children("input").prop("disabled", true);
+    } else if ($(this).hasClass("idk-input") & !$(this).is(":checked")) {
+      $(this).parent().siblings().children("input").prop("disabled", false);
+    }
+  });
+
+  // On change yes/no clear select inputs
+  $(".subqst input.no").click(function () {
+    $(this)
+      .parent()
+      .siblings(".subshow")
+      .find("input:checked")
+      .prop("checked", false);
   });
 
   // Show sub info
@@ -75,7 +95,7 @@ $(document).ready(function () {
       dangerSum = dangerSum + selectedInputDangerMark;
     }
 
-    let probMark = (probabilitySum * 100) / 94;
+    let probMark = (probabilitySum * 100) / 92;
     let probMarkDisplay = $("#probability-display");
 
     probMarkDisplay.show();
@@ -102,7 +122,8 @@ $(document).ready(function () {
       probMarkDisplay.addClass("alert-danger");
     }
 
-    let dangerMark = (dangerSum * 100) / 30;
+    let dangerMark = (dangerSum * 100) / 23.75;
+
     let dangerMarkDisplay = $("#danger-display");
     if (probMark > 25) {
       dangerMarkDisplay.show();
@@ -135,8 +156,29 @@ $(document).ready(function () {
   });
 
   // reset on modal hide
-
   $("#quizModal").on("hide.bs.modal", function (e) {
     $("#reset-quiz-btn").click();
+  });
+
+  // Validate form
+  $("#next").click(function () {
+    let checkedInput = $(".item.active input:checked");
+    if (checkedInput.size() < 1) {
+      $("#errors-display").html("يرجى الإجابة على السؤال.");
+      $("#errors-display").show();
+      return false;
+    } else if (checkedInput.hasClass("yes")) {
+      let checkedNestedInput = checkedInput
+        .parent()
+        .siblings(".subshow")
+        .find("input:checked");
+      if (checkedNestedInput.size() < 1) {
+        $("#errors-display").html(
+          "لقد أجبت بنعم، يرجى إكمـال الإجابة على السؤال."
+        );
+        $("#errors-display").show();
+        return false;
+      }
+    }
   });
 });
