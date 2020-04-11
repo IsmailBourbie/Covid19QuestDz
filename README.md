@@ -25,14 +25,13 @@ You'll need just a browser (Chrome, Firefox...)
 
 ![Home page](screenshots/home.png)
 
-### Question example
+| |
+| |
+| ### Question example
 
-![Question example](screenshots/question.png)
+![Question example](screenshots/question.png) | ### Guides example
 
-### Guides example
+![Guides example](screenshots/guides.png) |
+| ### Result example
 
-![Guides example](screenshots/guides.png)
-
-### Result example
-
-![Result example](screenshots/result.png)
+![Result example](screenshots/result.png) | |
