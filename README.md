@@ -5,6 +5,7 @@ Simple web app for checking if someone has coronavirus symptoms and gives him/he
 ## Features
 
 - Simple to use.
+- Responsive for mobile.
 - Arabic language.
 - Guides you (depending on your answers).
 - gives you the possibility of infection with the virus.
