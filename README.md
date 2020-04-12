@@ -18,7 +18,7 @@ The questionnaire allow you to obtain the probabilities of you being infected wi
 
 The questionnaire was designed by doctors in partnership with computer software engineers.
 
-## Features
+## Features :pushpin:
 
 - Simple to use. :yum: :ok_hand:
 - Responsive for mobile. :iphone: :computer:
