@@ -1,6 +1,8 @@
 # COVID19 TEST - إستبيــان كوفيد19 :mag: :heavy_check_mark:
 
-Simple web app for checking if someone has coronavirus symptoms and gives him/her a result about that.
+Simple web app for checking if someone has coronavirus symptoms :mask: and gives him/her a result about that.
+
+> PS: This website is designed for Algerian people.
 
 ## Features
 
