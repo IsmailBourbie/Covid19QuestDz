@@ -56,6 +56,10 @@ git clone https://github.com/IsmailBourbie/Covid19QuestDz.git
 
 If you want to contribute to this project and make it better with new ideas, your pull request is very welcomed. If you find any issue just put it in the repository issue section, thank you.
 
+## Licence :page_facing_up:
+
+This project is licensed under the MIT License - check [LICENSE.md](LICENSE) file for more details.
+
 ## Contact :e-mail:
 
 - [Linkedin](https://www.linkedin.com/in/ismail-bourbie)
