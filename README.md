@@ -1,4 +1,4 @@
-# COVID19 TEST - إستبيــان كوفيد19
+# COVID19 TEST - إستبيــان كوفيد19 :mag: :heavy_check_mark:
 
 Simple web app for checking if someone has coronavirus symptoms and gives him/her a result about that.
 
