@@ -4,23 +4,23 @@ Simple web app for checking if someone has coronavirus symptoms and gives him/he
 
 ## Features
 
-- Simple to use.
-- Responsive for mobile.
-- Arabic language.
-- Guides you (depending on your answers).
-- gives you the possibility of infection with the virus.
+- Simple to use. :yum: :ok_hand:
+- Responsive for mobile. :iphone: :computer:
+- Arabic language. :heart: :boom:
+- Guides you (depending on your answers). :heavy_exclamation_mark: :warning:
+- Gives you the possibility of infection with the virus. :heavy_check_mark: :page_with_curl:
 
-## Libraries used
+## Libraries used :file_folder:
 
 - jQuery v1.12.1
 - Bootstrap v3
 - Font-awesome
 
-## Requirements
+## Requirements :pencil:
 
 You'll need just a browser (Chrome, Firefox...)
 
-## Screenshots
+## Screenshots :camera:
 
 ### Home page
 
@@ -38,7 +38,7 @@ You'll need just a browser (Chrome, Firefox...)
 
 ![Result example](screenshots/result.png)
 
-## Installation
+## Installation :white_check_mark:
 
 1. Download the repository files (project) from the download section or clone this project by typing in the bash the following command:
 
@@ -50,11 +50,11 @@ git clone https://github.com/IsmailBourbie/Covid19QuestDz.git
 
    > You can see the app on this site: [covid19test-dz.com](https://covid19test-dz.com/)
 
-## Contributing
+## Contributing :bulb:
 
 If you want to contribute to this project and make it better with new ideas, your pull request is very welcomed. If you find any issue just put it in the repository issue section, thank you.
 
-## Contact
+## Contact :e-mail:
 
 - [Linkedin](https://www.linkedin.com/in/ismail-bourbie)
 - [Facebook](https://www.facebook.com/ismail.bourbie)
